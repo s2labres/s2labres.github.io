@@ -25,6 +25,11 @@ layout: heroes_lay
         {% endfor %}
 
     </div>
+    <div>
+        <div class="s2-twitter-feed">
+            {% twitter https://twitter.com/s2lab maxwidth=500 limit=5 %}
+        </div>
+    </div>
 </div>
 
 <br/>
