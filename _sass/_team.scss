@@ -1,0 +1,75 @@
+$team-photo-edge: 220px;
+
+.outer-frame {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.outer-frame a:hover {
+  text-decoration: none;
+}
+
+.team-frame {
+  padding: 10px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  //border-width: 0.1px;
+  //border-color: darkgrey;
+  //border-style: solid;
+  //box-shadow: 0px 5px 5px #aaaaaa;
+}
+
+.team-photo {
+  width: $team-photo-edge;
+  height: $team-photo-edge;
+}
+
+.team-caption-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  max-width: $team-photo-edge;
+}
+
+.team-caption {
+  color: black;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.team-location {
+  margin-top: -2px;
+  color: black;
+  text-align: center;
+  width: 100%;
+  font-weight: normal;
+  font-size: 0.8em;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Developer intuition: Kicks in at just over a third of the width of 13 inch laptop */
+@media only screen and (min-width: 600px) {
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* Developer intuition: Kicks in at half width of 13 inch laptop */
+@media only screen and (min-width: 768px) {
+  .outer-frame {
+    justify-content: left;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up)
+/* Developer intuition: Kicks in at half width of 13 inch laptop */
+@media only screen and (min-width: 1200px) {
+
+}

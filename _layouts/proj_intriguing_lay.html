@@ -1,0 +1,120 @@
+---
+layout: base_lay
+---
+<div class="main-content proj-content">
+    <div class="headline">
+        <div class="intriguing-gif">
+            <img src="{{ 'images/prisma.gif' | relative_url}}"/>
+        </div>
+        <h1 class="intriguing-header">Intriguing Properties of Adversarial ML Problem-Space Attacks</h1>
+    </div>
+
+    <h2>News</h2>
+    <ul>
+        <li><i>May 2020</i>: We'll be presenting the work at IEEE S&P on <b>May 20th ~9am PDT</b>, "see" you there!</li>
+        <li><i>Mar 2020</i>: Paper accepted at <b>IEEE Symp. Security & Privacy (Oakland) 2020</b></li>
+    </ul>
+    <h2>Access</h2>
+    We are hosting the attack code on a private Bitbucket repository. To get access to the repository, please complete the following form:
+
+    <div class="access-form">
+        <a href="https://forms.gle/mja8UEfYJPpxexMw5" target="_blank">> FORM TO REQUEST ACCESS <</a>
+    </div>
+
+    For ethical reasons, we will only be sharing the code with verified academic researchers.
+    <br/>
+    <br/>
+    We have already granted access to researchers from the following institutions (alphabetical order):
+
+    <ol>
+        <li>Ariel University</li>
+        <li>Beijing University of Posts and Telecommunications, China</li>
+        <li>Columbia University, USA</li>
+        <li>Fudan University, China </li>
+        <li>Georgia Tech, USA</li>
+        <li>Guangzhou University, China </li>
+        <li>The Hong Kong Polytechnic University, Hong Kong</li>
+        <li>The Hong Kong University of Science and Technology Library, Hong Kong</li>
+        <li>Karlsruhe Institute Technology, Germany</li>
+        <li>King's College London, UK </li>
+        <li>Korea University, Republic of Korea</li>
+        <li>Nanjing University, China</li>
+        <li>National University of Defense Technology, China</li>
+        <li>Northeastern University, USA</li>
+        <li>Orange Labs</li>
+        <li>PSG College of Technology, India</li>
+        <li>Queen's University, Canada </li>
+        <li>Indian Institute of Information Technology and Management, Kerala, India</li>
+        <li>Tsinghua University, China</li>
+        <li>University of Adelaide, Australia </li>
+        <li>University of British Columbia, Canada </li>
+        <li>University of the Fraser Valley, Canada</li>
+        <li>University of Illinois at Urbana-Champaign, USA</li>
+        <li>University of Luxembourg, Luxembourg</li>
+        <li>University of Michigan, USA </li>
+        <li>University of Oregon, USA</li>
+        <li>University of Virginia, USA</li>
+        <li>University of Wisconsin-Madison, USA</li>
+        <li>University of Rennes 1, INRIA, France </li>
+        <li>Washington University in St. Louis, USA</li>
+        <li>Wuhan University，China</li>
+        <li>Xidian University, China </li>
+        <li>Zhejiang Gongshang University, China</li>
+        <li>Zhejiang University, China</li>
+    </ol>
+
+    <h2>Papers</h2>
+
+    {% assign sorted = site.data.projects_publist | where: "tags", "intriguing" %}
+    {% for pub in sorted %}
+    {% include publication_reference.html %}
+    {% endfor %}
+
+    <h2>Videos</h2>
+
+    <div class="proj-video">
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/tsMcxDZLt4o?rel=0&vq=hd1080"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+        </div>
+        <div class="video-caption">
+            Feargus Pendlebury presents the work at IEEE Security & Privacy (Oakland) 2020.
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="proj-video">
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lLrnHwrvYiQ?rel=0"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+        </div>
+        <div class="video-caption">
+            Teaser trailer for our presentation at IEEE Security & Privacy (Oakland) 2020.
+        </div>
+    </div>
+
+    <h2>People</h2>
+    <ul>
+        {% assign member = site.data.team | where: "lastname", "Pierazzi" | first %}
+        <li><a href={{member.profile}}><i>Fabio Pierazzi</i></a>, Lecturer (Assistant Professor), King's College London.
+        </li>
+        {% assign member = site.data.team | where: "lastname", "Pendlebury" | first %}
+        <li><a href={{member.profile}}><i>Feargus Pendlebury</i></a>, Ph.D. Student, King's College London &amp; Royal
+            Holloway, University of London & The Alan Turing Institute
+        </li>
+        {% assign member = site.data.team | where: "lastname", "Cortellazzi" | first %}
+        <li><a href={{member.profile}}><i>Jacopo Cortellazzi</i></a>, Ph.D. Student, King's College London</li>
+        {% assign member = site.data.team | where: "lastname", "Cavallaro" | first %}
+        <li><a href={{member.profile}}><i>Lorenzo Cavallaro</i></a>, Full Professor of Computer
+            Science, Chair in Cybersecurity (Systems Security), King's College London
+        </li>
+    </ul>
+</div>
+

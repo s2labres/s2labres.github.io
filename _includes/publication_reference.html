@@ -1,0 +1,69 @@
+<div class="publication">
+    <div class="pub-info-box">
+        <div class="pub-info-text">
+            <span class="pub-title">{{ pub.title }}</span><br/>
+            <span class="pub-authors">{{ pub.authors }}</span><br/>
+            <span class="pub-venue-acronym">{{pub.venue.acronym}}</span> · <a href="{{ pub.link.url }}" target="_blank" rel="noopener noreferrer">
+                {{ pub.venue.title}}{% if pub.venue.acronym %}{% endif %}, {{pub.date | date: "%Y"}}</a>
+            {% if pub.award %}
+            · <span class="pub-award">{{pub.award}}</span><br/>
+            {% endif %}
+        </div>
+
+        {% if force_split %}
+        </div><div><div class="pub-button-box-reversed">
+        {% else %}
+
+        <div class="pub-button-box">
+            {% endif %}
+
+            {% if pub.homepage %}
+            <a href="{{ pub.homepage | relative_url }}" target="_blank" rel="noopener noreferrer">
+                <div class="pub-button homepage-button" style="font-size: 1.1em">
+                    <i class="fas fa-home"></i>
+                </div>
+            </a>
+            {% endif %}
+
+            {% if pub.link.poster %}
+            <a href="{{ site.url }}{{ site.baseurl }}/downloads/{{ pub.link.poster }}" target="_blank" rel="noopener noreferrer">
+                <div class="pub-button homepage-button" style="font-size: 1.1em">
+                    <i class="fas fa-image"></i>
+                </div>
+            </a>
+            {% endif %}
+
+            {% if pub.link.bonus %}
+            <a href="{{ site.url }}{{ site.baseurl }}/downloads/{{ pub.link.bonus }}" target="_blank" rel="noopener noreferrer">
+                <div class="pub-button homepage-button" style="font-size: 1.1em">
+                    <i class="fas fa-asterisk"></i>
+                </div>
+            </a>
+            {% endif %}
+
+            {% if pub.bibtex %}
+            <a data-toggle="collapse" href="#pub-{{ forloop.index }}" role="button"
+               aria-expanded="false" aria-controls="collapseExample">
+                <div class="pub-button bib-button">
+                    <i class="fas fa-quote-right"></i>
+                </div>
+            </a>
+            {% endif %}
+
+            {% if pub.link.download %}
+            <a href="{{ site.url }}{{ site.baseurl }}/downloads/{{ pub.link.download }}" target="_blank" rel="noopener noreferrer">
+                <div class="pub-button download-button" style="font-size: 1.1em">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+            </a>
+            {% endif %}
+
+        </div>
+
+    </div>
+    <div id="pub-{{ forloop.index }}" class="bibtex-container collapse">
+        <div>
+            <code class="bibtex">{{ pub.bibtex | safeHtml }}</code>
+        </div>
+    </div>
+</div>

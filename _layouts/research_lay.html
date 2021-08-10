@@ -1,0 +1,41 @@
+---
+layout: heroes_lay
+---
+<h1>Research Areas</h1>
+<br/>
+<div class="research-areas-box-container">
+    <a href="{{ site.url }}{{ site.baseurl }}/research/mlsec/">
+        <div class="research-areas-box">
+            <img src="{{ '/images/areas/coral.jpg' | relative_url }}"/>
+            <div class="research-areas-text">
+                AI + ML SECURITY
+            </div>
+        </div>
+    </a>
+    <a href="{{ site.url }}{{ site.baseurl }}/research/syssec/">
+        <div class="research-areas-box">
+            <img src="{{ '/images/areas/gears.jpg' | relative_url }}"/>
+            <div class="research-areas-text">
+                SYSTEMS SECURITY
+            </div>
+        </div>
+    </a>
+
+    <a href="{{ site.url }}{{ site.baseurl }}/research/malware/">
+        <div class="research-areas-box">
+            <img src="{{ '/images/areas/beetle.jpg' | relative_url }}"/>
+            <div class="research-areas-text">
+                MALWARE RESEARCH
+            </div>
+        </div>
+    </a>
+
+</div>
+
+<br/>
+
+<h1>Publications</h1>
+{% assign sorted = site.data.publist %}
+{% for pub in sorted %}
+{% include publication_reference.html %}
+{% endfor %}

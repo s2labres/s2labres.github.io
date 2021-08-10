@@ -1,0 +1,54 @@
+home:
+  title:
+  #img: images/heros/tower-bridge.png
+  img: images/heros/london.jpeg
+  quote: "\"Towards the pursuit of academic excellence through disruptive thinking\""
+  author: -S2Lab's motto
+
+blog:
+  title: BLOG
+  img: images/heros/eye.jpg
+  quote: "\"From there to here and here to there, funny things are everywhere.\""
+  author: —Dr. Seuss
+
+research:
+    title: RESEARCH
+    #img: images/heros/city-sun.png
+    img: images/heros/london-dawn.jpg
+    quote: "\"Imagination is more important than knowledge.\""
+    author: —Albert Einstein
+
+team:
+  title: TEAM
+  #title: ""
+  #img: images/heros/big-ben.jpg
+  #img: images/heros/stranger-team.png
+  #img: images/heros/team.svg
+  img: images/heros/team.png
+  quote: "\"Alone we can do so little, together we can do so much.\""
+  author: —Helen Keller
+
+contact:
+  title: CONTACT
+  #img: images/heros/campus-image-gallery-11.jpg
+  img: images/heros/bannerdome.jpg
+  quote: "\"Ideas won't keep. Something must be done about them.\""
+  author: —Alfred North Whitehead
+
+mlsec:
+  title: AI + ML SECURITY
+  img: images/heros/coral.jpg
+  quote:
+  author:
+
+syssec:
+  title: SYSTEMS SECURITY
+  img: images/heros/gears.jpg
+  quote:
+  author:
+
+malware:
+  title: MALWARE RESEARCH
+  img: images/heros/beetle.jpg
+  quote:
+  author:

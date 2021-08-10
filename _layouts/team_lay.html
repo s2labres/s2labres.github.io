@@ -1,0 +1,82 @@
+---
+layout: heroes_lay
+---
+
+<h2>Together We Thrive</h2>
+
+<h3>How to Win Friends and Influence People (Faculty)</h3>
+
+{% assign sorted = site.data.team | where:"role","faculty" %}
+<div class="outer-frame">
+    {% for member in sorted %}
+
+    {% include team-member-tile.html %}
+
+    {% endfor %}
+</div>
+
+<h3>Team-ups</h3>
+{% assign sorted = site.data.team | where:"role","lt-collab" | sort: 'lastname' %}
+<div class="outer-frame">
+    {% for member in sorted %}
+
+    {% include team-member-tile.html %}
+
+    {% endfor %}
+</div>
+
+<h3>The Heavy Lifters (PhD Students)</h3>
+
+{% assign sorted = site.data.team | where:"role","phd-student" | sort: 'lastname' %}
+<div class="outer-frame">
+    {% for member in sorted %}
+
+    {% include team-member-tile.html %}
+
+    {% endfor %}
+</div>
+
+
+<h3>The Importance of Diversity of Thoughts (Visitors)</h3>
+
+{% assign sorted = site.data.team | where:"role","visitor"   | sort: 'lastname' %}
+<div class="outer-frame">
+    {% for member in sorted %}
+
+    {% include team-member-tile.html %}
+
+    {% endfor %}
+</div>
+
+<h3>You. Made. It! (Alumni)</h3>
+
+{% assign sorted = site.data.team | where:"role","alumni" | sort: 'lastname' %}
+<div class="outer-frame">
+    {% for member in sorted %}
+
+    {% include team-member-tile.html %}
+
+    {% endfor %}
+</div>
+
+<h3>The S2Lab Fellows (Past Post-Doctoral Researchers)</h3>
+
+{% assign sorted = site.data.team | where:"role","past-postdoc" | sort: 'lastname' %}
+<div class="outer-frame">
+    {% for member in sorted %}
+
+    {% include team-member-tile.html %}
+
+    {% endfor %}
+</div>
+
+<h3>Better, Because of You (Past Visitors)</h3>
+
+{% assign sorted = site.data.team | where:"role","past-visitor" | sort: 'lastname' %}
+<div class="outer-frame">
+    {% for member in sorted %}
+
+    {% include team-member-tile.html %}
+
+    {% endfor %}
+</div>

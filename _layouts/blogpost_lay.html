@@ -1,0 +1,46 @@
+---
+layout: base_lay
+---
+
+<div class="blog-hero">
+
+    <img class="blog-hero-banner" src="{{ page.hero | relative_url}}"/>
+
+    <div class="blog-hero-text">
+        <div class="blog-hero-title">{{ page.title }}</div>
+        <div class="blog-hero-subtitle">{{ page.subtitle }}</div>
+        <br/>
+        <div class="blog-hero-info">Posted by {{ page.poster }} on {{ page.date | date: "%B %d, %Y" }} · {{
+            page.time-to-read }} read
+        </div>
+    </div>
+
+</div>
+
+
+<div class="blog-content">
+    {{ content }}
+    {% if page.references %}
+
+    <h3>References </h3>
+
+    <div class="ref-box">
+
+        {% assign sorted = page.references | sort: 'id' %}
+
+        {% for ref in sorted %}
+
+        <div class="ref-wrapper">
+            <div class="ref-first-line">
+                <div class="ref-id">{{ ref.id }}</div>
+                <div class="ref-title"><a href="{{ref.link}}" target=”_blank”>{{ ref.title }}</a></div>
+            </div>
+            <div><span class="ref-authors">{{ ref.authors }}</span> <br/></div>
+            <div><span class="ref-venue">{{ ref.venue }}</span></div>
+        </div>
+
+        {% endfor %}
+    </div>
+    {% endif %}
+
+</div>

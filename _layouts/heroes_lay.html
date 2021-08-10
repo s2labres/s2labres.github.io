@@ -1,0 +1,62 @@
+---
+layout: base_lay
+---
+
+{% case page.url %}
+{% when "/" %}
+{% assign hero = site.data.heros.home %}
+{% when "/blog/" %}
+{% assign hero = site.data.heros.blog %}
+{% when "/research/" %}
+{% assign hero = site.data.heros.research %}
+{% when "/team/" %}
+{% assign hero = site.data.heros.team %}
+{% when "/contact/" %}
+{% assign hero = site.data.heros.contact %}
+{% when "/research/mlsec/" %}
+{% assign hero = site.data.heros.mlsec %}
+{% when "/research/syssec/" %}
+{% assign hero = site.data.heros.syssec %}
+{% when "/research/malware/" %}
+{% assign hero = site.data.heros.malware %}
+
+{% else %}
+{% endcase %}
+
+{% if hero %}
+<div class="hero">
+
+    <img class="hero-banner" src="{{ hero.img | relative_url}}"/>
+
+    {% if hero.quote %}
+    <div class="hero-title">
+        {{ hero.title }}
+    </div>
+    {% else %}
+    <div class="hero-title hero-title-quoteless">
+        {{ hero.title }}
+    </div>
+    {% endif %}
+
+    {% if page.url == "/" %}
+    <!--<img class="hero-logo" src="{{ '/images/logopic/s2-white-new.svg' | relative_url }}">-->
+    <div class="hero-text">
+      <div class="hero-quote">{{ hero.quote }}</div>
+      <div class="hero-author">{{ hero.author }}</div>
+    </div>
+
+    {% else %}
+    {% if hero.quote %}
+    <div class="hero-text">
+        <div class="hero-quote">{{ hero.quote }}</div>
+        <div class="hero-author">{{ hero.author }}</div>
+    </div>
+    {% endif %}
+    {% endif %}
+
+</div>
+{% endif %}
+
+<div class="main-content">
+    {{ content }}
+</div>

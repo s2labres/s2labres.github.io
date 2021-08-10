@@ -1,0 +1,22 @@
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Developer intuition: Kicks in at just over a third of the width of 13 inch laptop */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* Developer intuition: Kicks in at half width of 13 inch laptop */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up)
+/* Developer intuition: Kicks in at half width of 13 inch laptop */
+@media only screen and (min-width: 1200px) {
+  .contact-page {
+    width: 70%;
+  }
+}

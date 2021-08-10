@@ -1,0 +1,15 @@
+<a href="{{ member.profile | relative_url }}">
+    <div class="team-frame">
+        <div>
+            <img class="team-photo" src="{{ member.photo | relative_url }}"/>
+        </div>
+        <div class="team-caption-wrapper">
+            <div class="team-caption">
+                {{ member.firstname }} {{ member.lastname }}
+            </div>
+            {% if member.location %}
+            <div class="team-location">{{ member.location }}</div>
+            {% endif %}
+        </div>
+    </div>
+</a>

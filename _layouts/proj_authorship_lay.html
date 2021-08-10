@@ -1,0 +1,61 @@
+---
+layout: base_lay
+---
+<div class="main-content proj-content">
+    <div class="headline">
+        <div class="glitch-title-wrapper">
+            <h1 class="apt">APT CLASS</h1>
+        </div>
+    </div>
+
+    Attributing a piece of malware to its creator typically requires threat intelligence to attain a sufficient
+    confidence level. Binary attribution increases the level of difficulty as it mostly relies upon the ability
+    to disassemble binaries to gather relevant features and build a fingerprint to identify the author.
+    <br/><br/>
+    To date, most research focuses on source code authorship attribution and the application of similar techniques
+    to benign and malicious binaries. However, this approach provides an opportunity for malicious authors to attack
+    the authorship attribution models due to the stark differences between both source code and binaries and benign
+    and malicious authors.
+    <br/><br/>
+    Our survey (joint work with <a href="https://s3lab.isg.rhul.ac.uk/aptclass">S3Lab</a>) explores the style of threat actors and the adversarial techniques used by them to remain anonymous.
+    We examine the adversarial impact on state-of-the-art methods for binary authorship attribution. Through this
+    approach, we identify key findings and explore the open research challenges to identifying authorship style within
+    malicious binaries.
+    <br/><br/>
+    One major challenge is the lack of a ground truth dataset of malware and authors. To mitigate
+    this issue for the community, <b>we publish alongside this survey a meta-information dataset of 15,660 malware
+    labeled to 164 threat actor groups</b>. This is the largest and diverse dataset to date. Additionally, we identify a
+    further 7,485 malicious samples currently linked to unknown groups.
+
+    <h2>Access</h2>
+    To request access to the dataset, please complete the following form:
+
+    <div class="access-form">
+        <a href="https://forms.gle/yME7G1mQwM8jRL5b9" target="_blank">> FORM TO REQUEST ACCESS <</a>
+    </div>
+
+    <h2>Papers</h2>
+
+    {% assign sorted = site.data.projects_publist | where: "tags", "aptclass" %}
+    {% for pub in sorted %}
+    {% include publication_reference.html %}
+    {% endfor %}
+
+
+    <h2>People</h2>
+    <ul>
+        {% assign member = site.data.team | where: "lastname", "Gray" | first %}
+        <li>
+            <b><a href={{member.profile}}><i>Jason Gray</i></a>, Ph.D. Student, King's College London &amp; Royal
+            Holloway, University of London</b>
+        </li>
+        <li>
+            <a href="https://www.danielesgandurra.com/"><i>Daniele Sgandurra</i></a>, Senior Lecturer (Associate Professor), Royal Holloway, University of London</li>
+        {% assign member = site.data.team | where: "lastname", "Cavallaro" | first %}
+        <li>
+            <a href={{member.profile}}><i>Lorenzo Cavallaro</i></a>, Full Professor of Computer
+            Science, Chair in Cybersecurity (Systems Security), King's College London
+        </li>
+    </ul>
+</div>
+

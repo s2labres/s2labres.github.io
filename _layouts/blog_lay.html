@@ -1,0 +1,10 @@
+---
+layout: heroes_lay
+---
+
+<div class="post-preview-wrapper">
+    {% assign sorted = site.posts | sort: 'date' | reverse %}
+    {% for post in sorted %}
+    {% include blogpost_preview.html %}
+    {% endfor %}
+</div>

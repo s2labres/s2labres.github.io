@@ -1,0 +1,48 @@
+.home-content {
+  display: block;
+}
+
+.home-header {
+  display: none;
+}
+
+.s2-twitter-feed {
+  padding: 0 5%;
+  min-width: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Developer intuition: Kicks in at just over a third of the width of 13 inch laptop */
+@media only screen and (min-width: 600px) {
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* Developer intuition: Kicks in at half width of 13 inch laptop */
+@media only screen and (min-width: 768px) {
+  .home-header {
+    display: block;
+  }
+}
+
+
+/* // Extra large devices (large desktops, 1200px and up)
+/* Developer intuition: Kicks in at half width of 13 inch laptop */
+@media only screen and (min-width: 1200px) {
+  /***** MAIN CONTENT *****/
+
+  .home-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .s2-twitter-feed {
+    padding-top: 50px;
+    padding-right: 32px;
+    min-width: 450px;
+  }
+}

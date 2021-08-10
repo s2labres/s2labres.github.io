@@ -1,0 +1,194 @@
+.research-areas-box-container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.research-areas-box-container {
+  width: 100%;
+}
+
+.research-areas-box {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 100%;
+  max-width: 100%;
+  margin: 5px 0;
+}
+
+.research-areas-box > img {
+  max-width: inherit;
+  object-fit: cover;
+  height: 6em;
+  width: 100vw;
+}
+
+.research-areas-text {
+  font-size: 2em;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.research-areas-blurb {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 0;
+  align-items: center;
+}
+
+.research-areas-blurb-text {
+}
+
+.research-areas-blurb-image {
+  display: none;
+  color: red;
+}
+
+.publication {
+  padding: 20px 0;
+}
+
+.pub-title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.pub-info-text {
+  margin-right: 10px;
+}
+
+.pub-authors {
+  font-style: italic;
+}
+
+.pub-award,
+.pub-venue-acronym {
+  color: indianred;
+}
+
+.pub-award {
+  font-style: italic;
+}
+
+
+.pub-info-box {
+  display: block;
+  justify-content: space-between;
+}
+
+.pub-button-box,
+.pub-button-box-reversed {
+  display: flex;
+  align-items: flex-start;
+}
+
+.pub-button-box-reversed {
+  flex-direction: row-reverse;
+  justify-content: left;
+}
+
+
+.pub-button {
+  color: gray;
+  width: 45px;
+  height: 45px;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.pub-button-box :first-child .pub-button {
+  margin-left: 0;
+}
+
+.pub-button-box-reversed :last-child .pub-button {
+  margin-left: 0;
+}
+
+
+.pub-button:hover {
+  background-color: lightgray;
+}
+
+.bibtex-container {
+  font-size: 0.85em;
+  border-left: 5px solid $kings-red;
+  margin-top: 10px;
+}
+
+.bibtex-container > div {
+  padding-left: 20px;
+}
+
+.bibtex {
+  user-select: all;
+  background: white;
+  color: $navbar-light-grey;
+}
+
+.bibtex > span {
+  margin-right: 20px;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Developer intuition: Kicks in at just over a third of the width of 13 inch laptop */
+@media only screen and (min-width: 600px) {
+
+  .research-areas-box-container {
+    flex-direction: row;
+  }
+
+  .research-areas-box-container > a {
+    width: 30%;
+  }
+
+  .research-areas-box > img {
+    object-fit: cover;
+    height: auto;
+    width: auto;
+  }
+
+  .research-areas-text {
+    font-size: 1.5em;
+  }
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* Developer intuition: Kicks in at half width of 13 inch laptop */
+@media only screen and (min-width: 768px) {
+
+  .pub-info-box {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .research-areas-text {
+    font-size: 2.5em;
+  }
+
+  .research-areas-blurb-image {
+    display: block;
+    margin: 0 50px 0 80px;
+    color: $navbar-dark-grey;
+    text-align: center;
+    font-size: 10em;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up)
+/* Developer intuition: Kicks in at half width of 13 inch laptop */
+@media only screen and (min-width: 1200px) {
+
+}

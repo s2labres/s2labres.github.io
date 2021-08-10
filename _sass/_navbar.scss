@@ -1,0 +1,180 @@
+.logo-img {
+  //margin: 0;
+  margin-right: 7em;
+  height: $navbar-height;
+  background-color: white;
+}
+
+.logo-s2 {
+  height: $navbar-height;
+  padding: $s2-logo-padding $s2-logo-padding + 2;
+  margin-right: 1em;
+}
+
+.navbar {
+  height: $navbar-height;
+  border-bottom: none;
+  //background-color: $navbar-dark-grey;
+  background-color: black;
+  //background-color: $navbar-dark-blue;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 2.5em;
+}
+
+.nav {
+  padding-right: $navbar-items-side-padding;
+}
+
+.nav {
+  float: left;
+}
+
+
+.nav > a {
+  color: white !important;
+  text-decoration: none;
+  float: left;
+}
+
+.nav > a > li {
+  height: $navbar-height;
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 $navbar-items-side-padding;
+}
+
+.nav > a > li:hover {
+  //background-color: $navbar-light-grey;
+  background-color: $navbar-light-black;
+}
+
+.in > .nav,
+.in > .nav > a,
+.in > .nav > a > li,
+.collapsing > .nav,
+.collapsing > .nav > a,
+.collapsing > .nav > a > li {
+  float: none;
+  width: 100%;
+}
+
+.navbar-nav {
+  padding: 0;
+}
+
+.navbar-toggle {
+  border: none;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  margin-right: 16px;
+}
+
+.navbar-toggle:hover {
+  border-radius: 0;
+  background-color: $navbar-light-grey !important;
+}
+
+.navbar-default {
+  border: none;
+}
+
+#navbar-collapse-1.collapsing,
+#navbar-collapse-1.in {
+  text-align: center;
+  border: none;
+  box-shadow: none;
+  background: $navbar-dark-grey;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  top: $navbar-height !important;
+  //float: left;
+  right: 0;
+  position: absolute;
+}
+
+.navbar-collapse > ul {
+  margin: 0;
+}
+
+
+body {
+  padding-top: $navbar-height;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Developer intuition: Kicks in at just over a third of the width of 13 inch laptop */
+@media only screen and (min-width: 600px) {
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* Developer intuition: Kicks in at half width of 13 inch laptop */
+@media only screen and (min-width: 768px) {
+  $navbar-height: 55px;
+  $s2-logo-padding: $navbar-height * 0.15;
+
+  .logo-img {
+    height: $navbar-height;
+  }
+
+  .logo-s2 {
+    height: $navbar-height;
+    padding: $s2-logo-padding $s2-logo-padding + 2;
+  }
+
+  .navbar {
+    height: $navbar-height;
+    font-size: 2.6em;
+  }
+  .nav > a > li {
+    height: $navbar-height;
+  }
+  body {
+    padding-top: $navbar-height;
+  }
+
+  #navbar-collapse-1.collapsing,
+  #navbar-collapse-1.in {
+    top: $navbar-height !important;
+  }
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up)
+/* Developer intuition: Kicks in at half width of 13 inch laptop */
+@media only screen and (min-width: 1200px) {
+
+  $navbar-height: 65px;
+  $s2-logo-padding: $navbar-height * 0.15;
+
+  .logo-img {
+    height: $navbar-height;
+  }
+
+  .logo-s2 {
+    height: $navbar-height;
+    padding: $s2-logo-padding $s2-logo-padding + 2;
+  }
+
+  .navbar {
+    height: $navbar-height;
+    font-size: 2.9em;
+  }
+  .nav > a > li {
+    height: $navbar-height;
+  }
+  body {
+    padding-top: $navbar-height;
+  }
+
+  #navbar-collapse-1.collapsing,
+  #navbar-collapse-1.in {
+    top: $navbar-height !important;
+  }
+}

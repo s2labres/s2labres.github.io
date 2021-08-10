@@ -1,0 +1,219 @@
+- title: "Universal Adversarial Perturbations for Malware"
+  authors: Raphael Labaca-Castro, Luis Muñoz-González, Feargus Pendlebury, Gabi Dreo Rodosek, Fabio Pierazzi, Lorenzo Cavallaro
+  description:
+  link:
+    url: https://arxiv.org/abs/2102.06747
+    download: universal.pdf
+  venue:
+    title: arXiv CoRR
+    acronym: CoRR
+  date: 2021-02-20
+  tags:
+    - intriguing
+    - selected
+    - syssec
+    - malware
+  bibtex: |
+    @article{labacacastro2021uaps,<br/>
+     <span></span> author    = {Raphael Labaca-Castro and Luis Muñoz-González and Feargus Pendlebury and Gabi Dreo Rodosek and Fabio Pierazzi and Lorenzo Cavallaro},<br/>
+     <span></span> title     = {Universal Adversarial Perturbations for Malware},<br/>
+     <span></span> journal   = {CoRR},</br>
+     <span></span> volume    = {abs/2102.06747},</br>
+     <span></span> year      = {2021},</br>
+     <span></span> url       = {http://arxiv.org/abs/2102.06747},</br>
+     <span></span> eprint    = {2102.06747},</br>
+     <span></span> archivePrefix = {arXiv}</br>
+    }
+
+- title: "Identifying Authorship Style in Malicious Binaries: Techniques, Challenges & Datasets"
+  authors: Jason Gray, Daniele Sgandurra, Lorenzo Cavallaro
+  description:
+  link:
+    url: https://arxiv.org/abs/2101.06124
+    download: aptclass.pdf
+  venue:
+    title: arXiv CoRR
+    acronym: CoRR
+  date: 2021-01-20
+  tags:
+    - aptclass
+    - selected
+    - syssec
+    - malware
+  bibtex: |
+    @article{gray2021aptclass,<br/>
+     <span></span> author    = {Jason Gray and Daniele Sgandurra and Lorenzo Cavallaro},<br/>
+     <span></span> title     = {Identifying Authorship Style in Malicious Binaries: Techniques, Challenges & Datasets},<br/>
+     <span></span> journal   = {CoRR},</br>
+     <span></span> volume    = {abs/2101.06124},</br>
+     <span></span> year      = {2021},</br>
+     <span></span> url       = {http://arxiv.org/abs/2101.06124},</br>
+     <span></span> eprint    = {2101.06124},</br>
+     <span></span> archivePrefix = {arXiv}</br>
+    }
+
+- title: "Intertwining ROP Gadgets and Opaque Predicates for Robust Obfuscation"
+  authors: Fukutomo Nakanishi, Giulio De Pasquale, Daniele Ferla, Lorenzo Cavallaro
+  description:
+  link:
+    url: https://arxiv.org/abs/2012.09163
+    download: ropfuscator.pdf
+  venue:
+    title: arXiv CoRR
+    acronym: CoRR
+  date: 2020-12-20
+  tags:
+    - ropfuscator
+    - selected
+    - syssec
+  bibtex: |
+    @article{nakanishi2020rop,<br/>
+     <span></span> author    = {Fukutomo Nakanishi and Giulio De Pasquale and Daniele Ferla and Lorenzo Cavallaro},<br/>
+     <span></span> title     = {Intertwining ROP Gadgets and Opaque Predicates for Robust Obfuscation},<br/>
+     <span></span> journal   = {CoRR},</br>
+     <span></span> volume    = {abs/2012.09163},</br>
+     <span></span> year      = {2020},</br>
+     <span></span> url       = {http://arxiv.org/abs/2012.09163},</br>
+     <span></span> eprint    = {2012.09163},</br>
+     <span></span> archivePrefix = {arXiv}</br>
+    }
+
+- title: "TESSERACT: Eliminating Experimental Bias in Malware Classification across Space and Time"
+  description: We argue that results are commonly inflated due to two pervasive sources of experimental bias 'spatial bias' caused by distributions of training and testing data that are not representative of a real-world deployment; and "temporal bias" caused by incorrect time splits of training and testing sets, leading to impossible configurations.
+  authors: Feargus Pendlebury*, Fabio Pierazzi*, Roberto Jordaney, Johannes Kinder, and Lorenzo Cavallaro
+  link:
+    url: https://www.usenix.org/conference/usenixsecurity19/presentation/pendlebury
+    download: tesseract.pdf
+  venue:
+    title: 28th USENIX Security Symposium
+    acronym: USENIX Sec
+  date: 2019-08-01
+  tags:
+    - tesseract
+    - selected
+    - mlsec
+    - malware
+  bibtex: |
+    @inproceedings{pendlebury2019tesseract,<br/>
+     <span></span> author = {Feargus Pendlebury* and Fabio Pierazzi* and Roberto Jordaney and Johannes Kinder and Lorenzo Cavallaro},<br/>
+     <span></span> title = {{TESSERACT: Eliminating Experimental Bias in Malware Classification across Space and Time}},<br/>
+     <span></span> booktitle = {28th USENIX Security Symposium},<br/>
+     <span></span> year = {2019},<br/>
+     <span></span> address = {Santa Clara, CA},<br/>
+     <span></span> publisher = {USENIX Association},<br/>
+     <span></span> note = {USENIX Sec}<br/>
+    }
+
+- title: "POSTER: Enabling Fair ML Evaluations for Security"
+  authors: Feargus Pendlebury*, Fabio Pierazzi*, Roberto Jordaney, Johannes Kinder, Lorenzo Cavallaro
+  link:
+    url: https://dl.acm.org/doi/abs/10.1145/3243734.3278505
+    download: tesseract-poster-paper.pdf
+    poster: tesseract-poster-final.pdf
+    bonus: tesseract-poster-references.pdf
+  venue:
+    title: 25th ACM Conference on Computer and Communications Security
+    acronym: ACM CCS
+  date: 2018-10-15
+  tags:
+    - tesseract
+    - mlsec
+    - malware
+
+- title: "TESSERACT: Eliminating Experimental Bias in Malware Classification across Space and Time"
+  description: We argue that results are commonly inflated due to two pervasive sources of experimental bias 'spatial bias' caused by distributions of training and testing data that are not representative of a real-world deployment; and "temporal bias" caused by incorrect time splits of training and testing sets, leading to impossible configurations.
+  authors: Feargus Pendlebury*, Fabio Pierazzi*, Roberto Jordaney, Johannes Kinder, and Lorenzo Cavallaro
+  link:
+    url: https://arxiv.org/abs/1807.07838
+    download: https://arxiv.org/pdf/1807.07838.pdf
+  venue:
+    title: arXiv
+    acronym: CoRR
+  date: 2018-07-20
+  tags:
+    - mlsec
+    - malware
+
+- title: "Intriguing Properties of Adversarial ML Attacks in the Problem Space"
+  description:
+  authors: Fabio Pierazzi*, Feargus Pendlebury*, Jacopo Cortellazzi, Lorenzo Cavallaro
+  link:
+    url: https://www.computer.org/csdl/proceedings-article/sp/2020/349700b308/1i0rIzjyA0M
+    download: intriguing2020.pdf
+    poster: intriguing-poster.pdf
+  venue:
+    title: 41st IEEE Symposium on Security and Privacy
+    acronym: IEEE S&P
+  date: 2020-03-01
+  tags:
+    - intriguing
+    - mlsec
+    - malware
+  bibtex: |
+    @inproceedings{pierazzi2020problemspace,<br/>
+     <span></span> author = {Fabio Pierazzi and Feargus Pendlebury and Jacopo Cortellazzi and Lorenzo Cavallaro},<br/>
+     <span></span> booktitle = {2020 IEEE Symposium on Security and Privacy (SP)},<br/>
+     <span></span> title = {Intriguing Properties of Adversarial ML Attacks in the Problem Space},<br/>
+     <span></span> year = {2020},<br/>
+     <span></span> volume = {},<br/>
+     <span></span> issn = {2375-1207},<br/>
+     <span></span> pages = {1308-1325},<br/>
+     <span></span> doi = {10.1109/SP40000.2020.00073},<br/>
+     <span></span> url = {https://doi.ieeecomputersociety.org/10.1109/SP40000.2020.00073},<br/>
+     <span></span> publisher = {IEEE Computer Society},<br/>
+    }
+
+- title: "Transcending Transcend: Revisiting Malware Classification in the Presence of Concept Drift"
+  authors: Federico Barbero, Feargus Pendlebury, Fabio Pierazzi, and Lorenzo Cavallaro
+  description:
+  link:
+    url: https://arxiv.org/abs/2010.03856
+    download: transcending.pdf
+  venue:
+    title: arXiv CoRR
+    acronym: CoRR
+  date: 2020-10-08
+  tags:
+    - transcend
+    - selected
+    - mlsec
+    - malware
+  bibtex: |
+    @inproceedings {barbero2020,<br/>
+     <span></span> author = {Federico Barbero and Feargus Pendlebury and Fabio Pierazzi and Lorenzo Cavallaro},<br/>
+     <span></span> title = {{Transcending Transcend: Revisiting Malware Classification in the Presence of Concept Drift}},<br/>
+     <span></span> journal = {arXiv CoRR},<br/>
+     <span></span> eprint = {2010.03856},<br/>
+     <span></span> archivePrefix = {arXiv},<br/>
+     <span></span> primaryClass = {cs.CR},<br/>
+     <span></span> year = {2020},<br/>
+    }
+
+- title: "Transcend: Detecting Concept Drift in Malware Classification Models"
+  description: In this work, we propose Transcend, a framework to identify aging classification models in vivo during deployment, much before the machine learning model’s performance starts to degrade. This is a significant departure from conventional approaches that retrain aging models retrospectively when poor performance is observed.
+  authors: Roberto Jordaney, Kumar Sharad, Santanu K. Dash, Zhi Wang, Davide Papini, Ilia Nouretdinov, and Lorenzo Cavallaro
+  link:
+    url: https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/jordaney
+    download: sec17-jordaney.pdf
+    poster: transcend-poster.pdf
+  venue:
+    title: 26th USENIX Security Symposium
+    acronym: USENIX Sec
+  date: 2017-08-01
+  tags:
+    - transcend
+    - selected
+    - mlsec
+    - malware
+  bibtex: |
+    @article{barbero2020,<br/>
+      <span></span> author    = {Federico Barbero and Feargus Pendlebury and Fabio Pierazzi and Lorenzo Cavallaro},<br/>
+      <span></span> title     = {Transcending Transcend: Revisiting Malware Classification in the Presence of Concept Drift},<br/>
+      <span></span> journal   = {CoRR},</br>
+      <span></span> volume    = {abs/2010.03856},</br>
+      <span></span> year      = {2020},</br>
+      <span></span> url       = {http://arxiv.org/abs/2010.03856},</br>
+      <span></span> eprint    = {2010.03856},</br>
+      <span></span> archivePrefix = {arXiv}</br>
+    }
+

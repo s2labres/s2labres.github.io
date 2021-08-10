@@ -1,0 +1,298 @@
+- firstname: Lorenzo
+  lastname: Cavallaro
+  photo: images/teampic/lorenzo.jpg
+  position: Full Professor
+  email: l.cavallaro@ucl.ac.uk
+  education1: Professor of Computer Science
+  education2: Lab Founder & Leader
+  profile: https://scholar.google.com/citations?user=oWT7fIYAAAAJ&hl=en
+  role: faculty
+  location: University College London
+
+- firstname: Fabio
+  lastname: Pierazzi
+  photo: images/teampic/fabio.jpg
+  position: Lecturer (Assistant Professor)
+  email: fabio.pierazzi@kcl.ac.uk
+  education1: Machine Learning Applications, Malware Analysis, Network Security, Concept Drift
+  profile: https://fabio.pierazzi.com/
+  location: King's College London
+  role: lt-collab
+
+- firstname: Johannes
+  lastname: Kinder
+  location: Bundeswehr University Munich
+  photo: images/teampic/johannes.jpeg
+  email: johannes.kinder@unibw.de
+  profile : https://www.unibw.de/patch
+  role: external
+
+- firstname: Daniele
+  lastname: Sgandurra
+  location: Huawei Munich
+  photo: images/teampic/daniele.png
+  email: daniele.sgandurra@huawei.com
+  profile: 
+  role: external
+
+- firstname: Salahuddin
+  lastname: Khan
+  photo: images/teampic/salah.jpg
+  email: Salahuddin.Khan.2013@live.rhul.ac.uk
+  profile: https://pure.royalholloway.ac.uk/portal/en/persons/salahuddin-khan(82746a87-bbee-4bd7-a10f-a7740584d0bc).html
+  role: alumni
+  location: Microsoft (Principal Software Engineer)
+
+- firstname: Kimberly
+  lastname: Tam
+  photo: images/teampic/kim.jpg
+  email: kimberly.tam@plymouth.ac.uk
+  profile: https://www.plymouth.ac.uk/staff/kimberly-tam
+  role: alumni
+  location: University of Plymouth (Lecturer)
+
+- firstname: Roberto
+  lastname: Jordaney
+  photo: images/teampic/roberto.jpg
+  email: jordaney.roberto@gmail.com
+  profile: https://rjordaney.is/
+  role: alumni
+  location: F-Secure (Security Researcher)
+
+- firstname: Davide
+  lastname: Papini
+  photo: images/teampic/davide.png
+  email:
+  profile: https://pure.royalholloway.ac.uk/portal/en/persons/davide-papini(d21e1a1e-af92-4e3c-94fc-e02fd13e26e2).html
+  role: past-postdoc
+
+- firstname: Zhi
+  lastname: Wang
+  photo: images/teampic/zhi.jpg
+  email:
+  profile:
+  role: past-postdoc
+  location: Nankai University (Lecturer)
+
+- firstname: Santanu
+  lastname: Dash
+  photo: images/teampic/santanu.jpg
+  email: s.dash@surrey.ac.uk
+  profile: http://santanu.uk/
+  role: past-postdoc
+  location: University of Surrey (Lecturer)
+
+- firstname: Guillermo 
+  #lastname: Suarez de Tangil Rotaeche 
+  lastname: Suarez de Tangil 
+  photo: images/teampic/guillermo.jpg 
+  email: guillermo.suarez-tangil@kcl.ac.uk 
+  profile: https://nms.kcl.ac.uk/guillermo.suarez-tangil/
+  role: past-postdoc
+  location: IMDEA Networks (Res. Assistant Prof.) and King's College London
+
+- firstname: Kumar
+  lastname: Sharad
+  photo: images/teampic/sharad.jpg
+  email: k.sharad@gmail.com
+  profile: http://ksharad.com/
+  role: past-postdoc
+  location: Splunk (Senior Threat Researcher)
+
+- firstname: Emanuele
+  lastname: Uliana
+  photo: images/teampic/emanuele.jpg
+  email: Emanuele.Uliana.2016@live.rhul.ac.uk
+  profile: https://pure.royalholloway.ac.uk/portal/en/persons/emanuele-uliana(8d18e29c-61cc-4de5-aa55-440645f7b81c).html
+  role: past-visitor
+  location: Royal Holloway, University of London
+
+- firstname: Edoardo
+  lastname: Colombo
+  photo: images/teampic/edo.png
+  email:
+  profile: https://pure.royalholloway.ac.uk/portal/en/persons/emanuele-uliana(8d18e29c-61cc-4de5-aa55-440645f7b81c).html
+  role: past-visitor
+  location: Polytechnic University of Milan
+
+- firstname: Stefano
+  lastname: Schiavoni
+  photo: images/teampic/stefano.jpg
+  email:
+  profile:
+  role: past-visitor
+  location: Polytechnic University of Milan
+
+- firstname: Jacopo
+  lastname: Cortellazzi
+  photo: images/teampic/jacopo.jpg
+  email: jacopo.cortellazzi@kcl.ac.uk
+  profile: https://kclpure.kcl.ac.uk/portal/en/persons/jacopo-cortellazzi(cbfeaaac-436f-448a-ba5e-b10aa4375fdf).html
+  role: phd-student
+  location: King's College London (Visiting UCL)
+
+- firstname: Feargus
+  lastname: Pendlebury
+  photo: images/teampic/feargus.jpg
+  email: feargus.pendlebury@kcl.ac.uk
+  profile: https://www.turing.ac.uk/people/enrichment-students/feargus-pendlebury
+  role: phd-student
+  location: Royal Holloway, University of London (Visiting King's and UCL)
+
+- firstname: Giulio
+  lastname: De Pasquale
+  photo: images/teampic/giulio.jpeg
+  email: giulio.de_pasquale@kcl.ac.uk
+  profile : https://peperunas.github.io/
+  role: phd-student
+  location: King's College London (Visiting UCL)
+
+- firstname: Zeliang "Mark"
+  lastname: Kan
+  photo: images/teampic/mark.jpg
+  email: zeliang.kan@kcl.ac.uk
+  role: phd-student
+  location: King's College London (Visiting UCL)
+
+- firstname: James
+  lastname: Patrick-Evans
+  photo: images/teampic/unknown.jpg
+  email: pcva028@live.rhul.ac.uk
+  role: past-visitor
+  location: Royal Holloway, University of London
+
+- firstname: Jordy
+  lastname: Gennissen
+  photo: images/teampic/jyy.jpg
+  email: jordy.gennissen@rhul.ac.uk
+  profile : https://outoftheheap.com/
+  role: past-visitor
+  location: Royal Holloway, University of London
+
+- firstname: Jason
+  lastname: Gray
+  photo: images/teampic/unknown.jpg
+  email: jason.gray.2017@live.rhul.ac.uk
+  profile: https://pure.royalholloway.ac.uk/portal/en/persons/jason-gray(0e0af6b6-f158-4811-9176-cc0cf9b7a8c0).html
+  role: visitor
+  location: Royal Holloway, University of London (Visiting King's and UCL)
+
+- firstname: Claudio
+  lastname: Rizzo
+  photo: images/teampic/claudio.jpg
+  email: claudio.rizzo.2015@live.rhul.ac.uk
+  role: alumni
+  location: Privitar (Backend Software Engineer)
+
+- firstname: Dusan
+  lastname: Repel
+  photo: images/teampic/dusan.png
+  email: dusan.repel.2013@live.rhul.ac.uk
+  profile : https://outoftheheap.com/
+  role: alumni
+  location: Royal Holloway, University of London
+
+- firstname: Simon
+  lastname: Bell
+  photo: images/teampic/simon.jpg
+  email: Simon.Bell.2014@live.rhul.ac.uk
+  profile : http://sjbell.com/
+  role: past-visitor
+  location: Royal Holloway, University of London
+
+- firstname: Gibson
+  lastname: Mba
+  photo: images/teampic/gibson.jpg
+  email: Gibson.Mba.2012@live.rhul.ac.uk
+  profile: https://pure.royalholloway.ac.uk/portal/en/persons/gibson-mba(d5f97a4d-835a-44de-8d66-3c2beeb54aac).html
+  role: past-visitor
+  location: Royal Holloway, University of London
+
+- firstname: Blake
+  lastname: Loring
+  photo: images/teampic/blake.jpg
+  email:
+  profile: https://www.parsed.uk/
+  role: past-visitor
+  location: Royal Holloway, University of London
+
+- firstname: Flavio
+  lastname: Toffalini
+  photo: images/teampic/flavio.jpg
+  email: flavio_toffalini@mymail.sutd.edu.sg
+  profile: http://flaviotoffalini.info/
+  role: past-visitor
+  location: Singapore University of Technology and Design
+
+- firstname: Giuseppina
+  lastname: Andresini
+  photo: images/teampic/giusy.jpg
+  email: giuseppina.andresini@uniba.it
+  profile: http://www.di.uniba.it/~andresini/
+  role: visitor
+  location: University of Bari "Aldo Moro"
+
+- firstname: Francesco
+  lastname: Zola
+  photo: images/teampic/francesco.jpg
+  email: fzola@vicomtech.org
+  profile: 
+  role: visitor
+  location: Vicometech
+
+- firstname: Fukutomo
+  lastname: Nakanishi
+  photo: images/teampic/unknown.jpg
+  email:
+  profile:
+  role: past-visitor
+  location: Toshiba Corporation
+
+- firstname: Federico
+  lastname: Barbero
+  photo: images/teampic/federico.jpg
+  email: federico.barbero@kcl.ac.uk
+  profile: https://www.linkedin.com/in/federico-barbero-95b919173/
+  role: visitor
+  location: King's College London
+
+- firstname: Daniele
+  lastname: Ferla
+  photo: images/teampic/ferla.jpg
+  email: daniele.ferla@unibo.it
+  profile: https://www.unibo.it/sitoweb/daniele.ferla/en
+  role: past-visitor
+  location: University of Bologna
+
+- firstname: Mourad
+  lastname: Leslous
+  photo: images/teampic/mourad.jpg
+  email:
+  profile:
+  role: past-visitor
+  location: Inria
+
+
+- firstname: Mansour
+  lastname: Ahmadi
+  photo: images/teampic/mansour.png
+  email:
+  profile:
+  role: past-visitor
+  location: University of Cagliari 
+
+- firstname: Tobias
+  lastname: Wüchner
+  photo: images/teampic/tobias.jpg
+  email:
+  profile:
+  role: past-visitor
+  location: Technical University of Munich
+
+- firstname: Harivallabha
+  lastname: Rangarajan
+  photo: images/teampic/hari.jpg
+  email: harivallabha.rangarajan@gmail.com
+  profile: https://harivallabha.github.io/
+  role: visitor
+  location: BITS Pilani, Hyderabad Campus

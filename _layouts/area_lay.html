@@ -1,0 +1,14 @@
+---
+layout: heroes_lay
+---
+
+{% assign current_tag = page.url | split:'/' | last %}
+
+{{ content }}
+
+<h3>Related Publications</h3>
+
+{% assign sorted = site.data.publist | where: "tags", current_tag %}
+{% for pub in sorted %}
+{% include publication_reference.html %}
+{% endfor %}

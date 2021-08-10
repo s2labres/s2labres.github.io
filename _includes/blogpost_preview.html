@@ -1,0 +1,12 @@
+<div class="post-preview-box">
+    <div class="post-preview-title">
+        <a href="{{ post.url | relative_url }}.html">{{post.title}}</a>
+    </div>
+    <div class="post-preview-subtitle">
+        {{post.subtitle}}
+    </div>
+    <div class="post-preview-info">
+        Posted by {{ post.poster }} on {{ post.date | date: "%B %d, %Y" }} · {{ post.time-to-read }} read
+    </div>
+    <br/>
+</div>

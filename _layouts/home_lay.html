@@ -1,0 +1,35 @@
+---
+layout: heroes_lay
+---
+
+<div class="home-content">
+    <div>
+        <h1 class="home-header">Systems Security Research Lab</h1>
+        <br>
+        </span>
+        {{ content }}
+
+        <h3>Latest News</h3>
+        <ul>
+            {% assign sorted = site.data.news | sort: 'date' | reverse %}
+            {% for item in sorted limit: 5%}
+            <li><i>{{item.date | date: "%B %Y" }}</i>: {{ item.content }}</li>
+            {% endfor %}
+        </ul>
+
+        <h3>Selected Publications</h3>
+
+        {% assign sorted = site.data.publist | where: "tags", "selected" %}
+        {% for pub in sorted %}
+        {% include publication_reference.html %}
+        {% endfor %}
+
+    </div>
+    <div>
+        <div class="s2-twitter-feed">
+            {% twitter https://twitter.com/s2lab maxwidth=500 limit=5 %}
+        </div>
+    </div>
+</div>
+
+<br/>

@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>S2Lab · Systems Security</title>
+    <meta name="description"
+          content="Systems Security">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="/research/syssec/">
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
+    <link href="/css/font-awesome/css/all.min.css" rel="stylesheet">
+    <link href="/css/code-themes/monokai.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="footer-pusher">
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div style="display: flex; justify-content: space-between">
+
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-left">
+<!--                <a href="/blog"><li>BLOG</li></a>-->
+                <a href="/"><li>HOME</li></a>
+                <a href="/research"><li>RESEARCH</li></a>
+                <a href="/team"><li>TEAM</li></a>
+                <a href="/contact"><li>CONTACT</li></a>
+            </ul>
+        </div>
+
+
+       <div style="flex-grow: 2"></div>
+
+        <a href="">
+            <img class="logo-s2" src="/images/logopic/s2-syssec-new.svg"/>
+        </a>
+<!--        
+            // TODO: needs to fix alignments
+            <a href="https://www.ucl.ac.uk">
+            <img class="logo-img" src="/images/logopic/ucl-logo.svg"/>
+        </a>
+-->
+
+         <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+    </div>
+</div>
+
+
+    <div>
+    
+
+
+<div class="hero">
+
+    <img class="hero-banner" src="/images/heros/gears.jpg"/>
+
+    
+    <div class="hero-title hero-title-quoteless">
+        SYSTEMS SECURITY
+    </div>
+    
+
+    
+    
+    
+
+</div>
+
+
+<div class="main-content">
+    
+
+<div class="research-areas-blurb">
+
+  <div class="research-areas-blurb-text">
+
+    <p>Intimate knowledge of low-level details enables adversaries to infiltrate and abuse whole systems with ever more sophisticated attacks. 
+As defenders it’s integral that we can meet that knowledge with similar expertise to protect against them.</p>
+
+    <p>By thinking like adversaries and performing our own <strong>exploitation development</strong>, we’re able to stay one step ahead and develop
+defences against new attacks before they’re discovered and exploited by bad actors.</p>
+
+    <p>On the other side of the same coin, new techniques in <strong>vulnerability discovery</strong> and analysis can prevent bugs and secure 
+existing systems to mitigate potential attack vectors. 
+To do so at a large scale, we can make use of automated techniques such as <strong>program analysis</strong> which allow for systematic, 
+repeatable software assessments.</p>
+
+    <p>As one of our core research streams, output from this area heavily informs our other efforts, providing a toolkit 
+for a wide array of useful techniques such as code obfuscation, automated software transplantation, and binary analysis.</p>
+
+  </div>
+  <div class="research-areas-blurb-image">
+    <p><i class="fas fa-cogs"></i></p>
+  </div>
+</div>
+
+
+<h3>Related Publications</h3>
+
+
+
+<div class="publication">
+    <div class="pub-info-box">
+        <div class="pub-info-text">
+            <span class="pub-title">Universal Adversarial Perturbations for Malware</span><br/>
+            <span class="pub-authors">Raphael Labaca-Castro, Luis Muñoz-González, Feargus Pendlebury, Gabi Dreo Rodosek, Fabio Pierazzi, Lorenzo Cavallaro</span><br/>
+            <span class="pub-venue-acronym">CoRR</span> · <a href="https://arxiv.org/abs/2102.06747" target="_blank" rel="noopener noreferrer">
+                arXiv CoRR, 2021</a>
+            
+        </div>
+
+        
+
+        <div class="pub-button-box">
+            
+
+            
+
+            
+
+            
+
+            
+            <a data-toggle="collapse" href="#pub-1" role="button"
+               aria-expanded="false" aria-controls="collapseExample">
+                <div class="pub-button bib-button">
+                    <i class="fas fa-quote-right"></i>
+                </div>
+            </a>
+            
+
+            
+            <a href="/downloads/universal.pdf" target="_blank" rel="noopener noreferrer">
+                <div class="pub-button download-button" style="font-size: 1.1em">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+            </a>
+            
+
+        </div>
+
+    </div>
+    <div id="pub-1" class="bibtex-container collapse">
+        <div>
+            <code class="bibtex">@article{labacacastro2021uaps,<br/>
+ <span></span> author    = {Raphael Labaca-Castro and Luis Muñoz-González and Feargus Pendlebury and Gabi Dreo Rodosek and Fabio Pierazzi and Lorenzo Cavallaro},<br/>
+ <span></span> title     = {Universal Adversarial Perturbations for Malware},<br/>
+ <span></span> journal   = {CoRR},</br>
+ <span></span> volume    = {abs/2102.06747},</br>
+ <span></span> year      = {2021},</br>
+ <span></span> url       = {http://arxiv.org/abs/2102.06747},</br>
+ <span></span> eprint    = {2102.06747},</br>
+ <span></span> archivePrefix = {arXiv}</br>
+}
+</code>
+        </div>
+    </div>
+</div>
+
+<div class="publication">
+    <div class="pub-info-box">
+        <div class="pub-info-text">
+            <span class="pub-title">Identifying Authorship Style in Malicious Binaries: Techniques, Challenges & Datasets</span><br/>
+            <span class="pub-authors">Jason Gray, Daniele Sgandurra, Lorenzo Cavallaro</span><br/>
+            <span class="pub-venue-acronym">CoRR</span> · <a href="https://arxiv.org/abs/2101.06124" target="_blank" rel="noopener noreferrer">
+                arXiv CoRR, 2021</a>
+            
+        </div>
+
+        
+
+        <div class="pub-button-box">
+            
+
+            
+            <a href="/projects/authorship/" target="_blank" rel="noopener noreferrer">
+                <div class="pub-button homepage-button" style="font-size: 1.1em">
+                    <i class="fas fa-home"></i>
+                </div>
+            </a>
+            
+
+            
+
+            
+
+            
+            <a data-toggle="collapse" href="#pub-2" role="button"
+               aria-expanded="false" aria-controls="collapseExample">
+                <div class="pub-button bib-button">
+                    <i class="fas fa-quote-right"></i>
+                </div>
+            </a>
+            
+
+            
+            <a href="/downloads/aptclass.pdf" target="_blank" rel="noopener noreferrer">
+                <div class="pub-button download-button" style="font-size: 1.1em">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+            </a>
+            
+
+        </div>
+
+    </div>
+    <div id="pub-2" class="bibtex-container collapse">
+        <div>
+            <code class="bibtex">@article{gray2021aptclass,<br/>
+ <span></span> author    = {Jason Gray and Daniele Sgandurra and Lorenzo Cavallaro},<br/>
+ <span></span> title     = {Identifying Authorship Style in Malicious Binaries: Techniques, Challenges & Datasets},<br/>
+ <span></span> journal   = {CoRR},</br>
+ <span></span> volume    = {abs/2101.06124},</br>
+ <span></span> year      = {2021},</br>
+ <span></span> url       = {http://arxiv.org/abs/2101.06124},</br>
+ <span></span> eprint    = {2101.06124},</br>
+ <span></span> archivePrefix = {arXiv}</br>
+}
+</code>
+        </div>
+    </div>
+</div>
+
+<div class="publication">
+    <div class="pub-info-box">
+        <div class="pub-info-text">
+            <span class="pub-title">Intertwining ROP Gadgets and Opaque Predicates for Robust Obfuscation</span><br/>
+            <span class="pub-authors">Fukutomo Nakanishi, Giulio De Pasquale, Daniele Ferla, Lorenzo Cavallaro</span><br/>
+            <span class="pub-venue-acronym">CoRR</span> · <a href="https://arxiv.org/abs/2012.09163" target="_blank" rel="noopener noreferrer">
+                arXiv CoRR, 2020</a>
+            
+        </div>
+
+        
+
+        <div class="pub-button-box">
+            
+
+            
+            <a href="/projects/ropfuscator/" target="_blank" rel="noopener noreferrer">
+                <div class="pub-button homepage-button" style="font-size: 1.1em">
+                    <i class="fas fa-home"></i>
+                </div>
+            </a>
+            
+
+            
+
+            
+
+            
+            <a data-toggle="collapse" href="#pub-3" role="button"
+               aria-expanded="false" aria-controls="collapseExample">
+                <div class="pub-button bib-button">
+                    <i class="fas fa-quote-right"></i>
+                </div>
+            </a>
+            
+
+            
+            <a href="/downloads/ropfuscator.pdf" target="_blank" rel="noopener noreferrer">
+                <div class="pub-button download-button" style="font-size: 1.1em">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+            </a>
+            
+
+        </div>
+
+    </div>
+    <div id="pub-3" class="bibtex-container collapse">
+        <div>
+            <code class="bibtex">@article{nakanishi2020rop,<br/>
+ <span></span> author    = {Fukutomo Nakanishi and Giulio De Pasquale and Daniele Ferla and Lorenzo Cavallaro},<br/>
+ <span></span> title     = {Intertwining ROP Gadgets and Opaque Predicates for Robust Obfuscation},<br/>
+ <span></span> journal   = {CoRR},</br>
+ <span></span> volume    = {abs/2012.09163},</br>
+ <span></span> year      = {2020},</br>
+ <span></span> url       = {http://arxiv.org/abs/2012.09163},</br>
+ <span></span> eprint    = {2012.09163},</br>
+ <span></span> archivePrefix = {arXiv}</br>
+}
+</code>
+        </div>
+    </div>
+</div>
+
+<div class="publication">
+    <div class="pub-info-box">
+        <div class="pub-info-text">
+            <span class="pub-title">Probabilistic Naming of Functions in Stripped Binaries</span><br/>
+            <span class="pub-authors">James Patrick-Evans, Lorenzo Cavallaro, Johannes Kinder</span><br/>
+            <span class="pub-venue-acronym">ACSAC</span> · <a href="https://www.acsac.org/2020/program/papers/" target="_blank" rel="noopener noreferrer">
+                Annual Computer Security Applications Conference, 2020</a>
+            
+        </div>
+
+        
+
+        <div class="pub-button-box">
+            
+
+            
+
+            
+
+            
+
+            
+            <a data-toggle="collapse" href="#pub-4" role="button"
+               aria-expanded="false" aria-controls="collapseExample">
+                <div class="pub-button bib-button">
+                    <i class="fas fa-quote-right"></i>
+                </div>
+            </a>
+            
+
+            
+            <a href="/downloads/acsac20-punstrip.pdf" target="_blank" rel="noopener noreferrer">
+                <div class="pub-button download-button" style="font-size: 1.1em">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+            </a>
+            
+
+        </div>
+
+    </div>
+    <div id="pub-4" class="bibtex-container collapse">
+        <div>
+            <code class="bibtex">@inproceedings{patrickevans2020punstrip,<br/>
+ <span></span> author = {James Patrick-Evans and Lorenzo Cavallaro and Johannes Kinder},<br/>
+ <span></span> title = {Probabilistic Naming of Functions in Stripped Binaries},<br/>
+ <span></span> booktitle = {Annual Computer Security Applications Conference (ACSAC)},<br/>
+ <span></span> year = {2020},<br/>
+}
+</code>
+        </div>
+    </div>
+</div>
+
+<div class="publication">
+    <div class="pub-info-box">
+        <div class="pub-info-text">
+            <span class="pub-title">BabelView: Evaluating the Impact of Code Injection Attacks in Mobile Webviews</span><br/>
+            <span class="pub-authors">Claudio Rizzo, Lorenzo Cavallaro, and Johannes Kinder</span><br/>
+            <span class="pub-venue-acronym">RAID</span> · <a href="https://doi.org/10.1007/978-3-030-00470-5_2" target="_blank" rel="noopener noreferrer">
+                21st International Symposium on Research in Attacks, Intrusions and Defenses, 2018</a>
+            
+        </div>
+
+        
+
+        <div class="pub-button-box">
+            
+
+            
+
+            
+
+            
+
+            
+            <a data-toggle="collapse" href="#pub-5" role="button"
+               aria-expanded="false" aria-controls="collapseExample">
+                <div class="pub-button bib-button">
+                    <i class="fas fa-quote-right"></i>
+                </div>
+            </a>
+            
+
+            
+            <a href="/downloads/raid18_babelview.pdf" target="_blank" rel="noopener noreferrer">
+                <div class="pub-button download-button" style="font-size: 1.1em">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+            </a>
+            
+
+        </div>
+
+    </div>
+    <div id="pub-5" class="bibtex-container collapse">
+        <div>
+            <code class="bibtex">@inproceedings{DBLP:conf/raid/RizzoCK18,<br/>
+<span></span>  author    = {Claudio Rizzo and Lorenzo Cavallaro and Johannes Kinder},<br/>
+<span></span>  title     = {BabelView: Evaluating the Impact of Code Injection Attacks in Mobile Webviews},<br/>
+<span></span>  booktitle = {{RAID}},<br/>
+<span></span>  series    = {Lecture Notes in Computer Science},<br/>
+<span></span>  volume    = {11050},<br/>
+<span></span>  pages     = {25--46},<br/>
+<span></span>  publisher = {Springer},<br/>
+<span></span>  year      = {2018}<br/>
+}
+</code>
+        </div>
+    </div>
+</div>
+
+<div class="publication">
+    <div class="pub-info-box">
+        <div class="pub-info-text">
+            <span class="pub-title">POTUS: Probing Off-The-Shelf USB Drivers with Symbolic Fault Injection</span><br/>
+            <span class="pub-authors">James Patrick-Evans, Lorenzo Cavallaro, and Johannes Kinder</span><br/>
+            <span class="pub-venue-acronym">USENIX Sec-WOOT</span> · <a href="https://www.usenix.org/conference/woot17/workshop-program/presentation/patrick-evans" target="_blank" rel="noopener noreferrer">
+                11th USENIX Workshop on Offensive Technologies, 2017</a>
+            
+            · <span class="pub-award">Best Paper Award</span><br/>
+            
+        </div>
+
+        
+
+        <div class="pub-button-box">
+            
+
+            
+
+            
+
+            
+
+            
+            <a data-toggle="collapse" href="#pub-6" role="button"
+               aria-expanded="false" aria-controls="collapseExample">
+                <div class="pub-button bib-button">
+                    <i class="fas fa-quote-right"></i>
+                </div>
+            </a>
+            
+
+            
+            <a href="/downloads/woot17-paper-patrick-evans.pdf" target="_blank" rel="noopener noreferrer">
+                <div class="pub-button download-button" style="font-size: 1.1em">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+            </a>
+            
+
+        </div>
+
+    </div>
+    <div id="pub-6" class="bibtex-container collapse">
+        <div>
+            <code class="bibtex">@inproceedings{woot2017,<br/>
+<span></span>  author = {James Patrick-Evans and Lorenzo Cavallaro and Johannes Kinder},<br/>
+<span></span>  title = {{POTUS}: Probing Off-The-Shelf {USB} Drivers with Symbolic Fault Injection},<br/>
+<span></span>  booktitle = {11th USENIX Workshop on Offensive Technologies (WOOT)},<br/>
+<span></span>  note = {USENIX WOOT Best Paper Award},<br/>
+<span></span>  year = 2017,<br/>
+}
+</code>
+        </div>
+    </div>
+</div>
+
+<div class="publication">
+    <div class="pub-info-box">
+        <div class="pub-info-text">
+            <span class="pub-title">Understanding Android App Piggybacking: A Systematic Study of Malicious Code Grafting</span><br/>
+            <span class="pub-authors">Li Li, Daoyuan Li, Tegawende F. Bissyande, Jacques Klein, Yves Le Traon, David Lo, and Lorenzo Cavallaro</span><br/>
+            <span class="pub-venue-acronym">IEEE T-IFS</span> · <a href="https://ieeexplore.ieee.org/document/7828100" target="_blank" rel="noopener noreferrer">
+                IEEE Trans. Information Forensics and Security, 2017</a>
+            
+        </div>
+
+        
+
+        <div class="pub-button-box">
+            
+
+            
+
+            
+
+            
+
+            
+            <a data-toggle="collapse" href="#pub-7" role="button"
+               aria-expanded="false" aria-controls="collapseExample">
+                <div class="pub-button bib-button">
+                    <i class="fas fa-quote-right"></i>
+                </div>
+            </a>
+            
+
+            
+            <a href="/downloads/Understanding Android app piggybacking_ A systematic study of mal.pdf" target="_blank" rel="noopener noreferrer">
+                <div class="pub-button download-button" style="font-size: 1.1em">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+            </a>
+            
+
+        </div>
+
+    </div>
+    <div id="pub-7" class="bibtex-container collapse">
+        <div>
+            <code class="bibtex">@article{DBLP:journals/tifs/0029LBKTLC17,<br/>
+<span></span> author    = {Li Li and Daoyuan Li and Tegawende F. Bissyande and Jacques Klein and Yves Le Traon and David Lo and Lorenzo Cavallaro},<br/>
+<span></span> title     = {{Understanding Android App Piggybacking: A Systematic Study of Malicious Code Grafting}},<br/>
+<span></span> journal   = {{IEEE Trans. Information Forensics and Security}},<br/>
+<span></span> volume    = {12},<br/>
+<span></span> number    = {6},<br/>
+<span></span> pages     = {1269--1284},<br/>
+<span></span> year      = {2017},<br/>
+<span></span> url       = {https://doi.org/10.1109/TIFS.2017.2656460},<br/>
+<span></span> doi       = {10.1109/TIFS.2017.2656460},<br/>
+<span></span> timestamp = {Sun, 28 May 2017 13:17:25 +0200},<br/>
+<span></span> biburl    = {http://dblp.uni-trier.de/rec/bib/journals/tifs/0029LBKTLC17},<br/>
+<span></span> bibsource = {dblp computer science bibliography, http://dblp.org},<br/>
+<span></span> note = {IEEE TIFS}<br/>
+}
+</code>
+        </div>
+    </div>
+</div>
+
+<div class="publication">
+    <div class="pub-info-box">
+        <div class="pub-info-text">
+            <span class="pub-title">Modular Synthesis of Heap Exploits</span><br/>
+            <span class="pub-authors">Dusan Repel, Johannes Kinder, and Lorenzo Cavallaro</span><br/>
+            <span class="pub-venue-acronym">ACM CCS-PLAS</span> · <a href="https://dl.acm.org/citation.cfm?id=3139346" target="_blank" rel="noopener noreferrer">
+                ACM SIGSAC Workshop on Programming Languages and Analysis for Security, 2017</a>
+            
+        </div>
+
+        
+
+        <div class="pub-button-box">
+            
+
+            
+
+            
+
+            
+
+            
+            <a data-toggle="collapse" href="#pub-8" role="button"
+               aria-expanded="false" aria-controls="collapseExample">
+                <div class="pub-button bib-button">
+                    <i class="fas fa-quote-right"></i>
+                </div>
+            </a>
+            
+
+            
+            <a href="/downloads/plas2017.pdf" target="_blank" rel="noopener noreferrer">
+                <div class="pub-button download-button" style="font-size: 1.1em">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+            </a>
+            
+
+        </div>
+
+    </div>
+    <div id="pub-8" class="bibtex-container collapse">
+        <div>
+            <code class="bibtex">@inproceedings{plas2017,<br/>
+<span></span> author = {Dusan Repel and Johannes Kinder and Lorenzo Cavallaro},<br/>
+<span></span> title = {Modular Synthesis of Heap Exploits},<br/>
+<span></span> booktitle = {Proc. ACM SIGSAC Workshop on Programming Languages and Analysis for Security (PLAS 2017)},<br/>
+<span></span> year = 2017,<br/>
+<span></span> note = {ACM CCS-PLAS}<br/>
+}
+</code>
+        </div>
+    </div>
+</div>
+
+<div class="publication">
+    <div class="pub-info-box">
+        <div class="pub-info-text">
+            <span class="pub-title">Stack Object Protection with Low Fat Pointers</span><br/>
+            <span class="pub-authors">Gregory Duck, Roland Yap, and Lorenzo Cavallaro</span><br/>
+            <span class="pub-venue-acronym">NDSS</span> · <a href="https://www.ndss-symposium.org/ndss2017/ndss-2017-programme/stack-object-protection-low-fat-pointers/" target="_blank" rel="noopener noreferrer">
+                24th Annual Network and Distributed System Security Symposium, 2017</a>
+            
+        </div>
+
+        
+
+        <div class="pub-button-box">
+            
+
+            
+
+            
+
+            
+
+            
+            <a data-toggle="collapse" href="#pub-9" role="button"
+               aria-expanded="false" aria-controls="collapseExample">
+                <div class="pub-button bib-button">
+                    <i class="fas fa-quote-right"></i>
+                </div>
+            </a>
+            
+
+            
+            <a href="/downloads/ndss2017.pdf" target="_blank" rel="noopener noreferrer">
+                <div class="pub-button download-button" style="font-size: 1.1em">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+            </a>
+            
+
+        </div>
+
+    </div>
+    <div id="pub-9" class="bibtex-container collapse">
+        <div>
+            <code class="bibtex">@InProceedings{lowfatstack-ndss2017,<br/>
+<span></span> author =       {Gregory Duck and Roland Yap and Lorenzo Cavallaro},<br/>
+<span></span> title =        {{Stack Object Protection with Low Fat Pointers}},<br/>
+<span></span> booktitle = {24th Annual Network and Distributed System Security Symposium, San Diego, California, USA},<br/>
+<span></span> year =      2017,<br/>
+<span></span> month = {February},<br/>
+<span></span> note = {NDSS}<br/>
+}
+</code>
+        </div>
+    </div>
+</div>
+
+<div class="publication">
+    <div class="pub-info-box">
+        <div class="pub-info-text">
+            <span class="pub-title">The Evolution of Android Malware and Android Analysis Techniques</span><br/>
+            <span class="pub-authors">Kimberly Tam, Ali Feizollah, Badrul Nor Anuar, Rosli Salleh, and Lorenzo Cavallaro</span><br/>
+            <span class="pub-venue-acronym">ACM CSUR</span> · <a href="https://dl.acm.org/citation.cfm?id=3017427" target="_blank" rel="noopener noreferrer">
+                ACM Computing Surveys, 2017</a>
+            
+        </div>
+
+        
+
+        <div class="pub-button-box">
+            
+
+            
+
+            
+
+            
+
+            
+            <a data-toggle="collapse" href="#pub-10" role="button"
+               aria-expanded="false" aria-controls="collapseExample">
+                <div class="pub-button bib-button">
+                    <i class="fas fa-quote-right"></i>
+                </div>
+            </a>
+            
+
+            
+            <a href="/downloads/computingsurvey.pdf" target="_blank" rel="noopener noreferrer">
+                <div class="pub-button download-button" style="font-size: 1.1em">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+            </a>
+            
+
+        </div>
+
+    </div>
+    <div id="pub-10" class="bibtex-container collapse">
+        <div>
+            <code class="bibtex">@article{Tam:2017:EAM:3022634.3017427,<br/>
+<span></span> author = {Kimberly Tam and Ali Feizollah and Badrul Nor Anuar and Rosli Salleh and Lorenzo Cavallaro},<br/>
+<span></span> title = {{The Evolution of Android Malware and Android Analysis Techniques}},<br/>
+<span></span> journal = {ACM Compututing Surveys},<br/>
+<span></span> issue_date = {February 2017},<br/>
+<span></span> volume = {49},<br/>
+<span></span> number = {4},<br/>
+<span></span> month = {January},<br/>
+<span></span> year = {2017},<br/>
+<span></span> issn = {0360-0300},<br/>
+<span></span> pages = {76:1--76:41},<br/>
+<span></span> articleno = {76},<br/>
+<span></span> numpages = {41},<br/>
+<span></span> url = {http://doi.acm.org/10.1145/3017427},<br/>
+<span></span> doi = {10.1145/3017427},<br/>
+<span></span> acmid = {3017427},<br/>
+<span></span> publisher = {ACM},<br/>
+<span></span> address = {New York, NY, USA},<br/>
+<span></span> keywords = {Android, classification, detection, dynamic analysis, malware, static analysis},<br/>
+<span></span> note = {ACM CSUR}<br/>
+}
+</code>
+        </div>
+    </div>
+</div>
+
+<div class="publication">
+    <div class="pub-info-box">
+        <div class="pub-info-text">
+            <span class="pub-title">CopperDroid: Automatic Reconstruction of Android Malware Behaviors</span><br/>
+            <span class="pub-authors">Kimberly Tam, Salahuddin J. Khan, Aristide Fattori, and Lorenzo Cavallaro</span><br/>
+            <span class="pub-venue-acronym">NDSS</span> · <a href="https://www.semanticscholar.org/paper/CopperDroid%3A-Automatic-Reconstruction-of-Android-Tam-Khan/b38fd5f9ec3ce75455946de5913549b5f660b22e" target="_blank" rel="noopener noreferrer">
+                22nd Annual Network and Distributed System Security Symposium, 2015</a>
+            
+        </div>
+
+        
+
+        <div class="pub-button-box">
+            
+
+            
+
+            
+
+            
+
+            
+            <a data-toggle="collapse" href="#pub-11" role="button"
+               aria-expanded="false" aria-controls="collapseExample">
+                <div class="pub-button bib-button">
+                    <i class="fas fa-quote-right"></i>
+                </div>
+            </a>
+            
+
+            
+            <a href="/downloads/164907eccd30241c179eb65d7cc0032d8d40.pdf" target="_blank" rel="noopener noreferrer">
+                <div class="pub-button download-button" style="font-size: 1.1em">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+            </a>
+            
+
+        </div>
+
+    </div>
+    <div id="pub-11" class="bibtex-container collapse">
+        <div>
+            <code class="bibtex">@InProceedings{copperdroid-ndss2015,<br/>
+<span></span> author =       {Kimberly Tam, Salahuddin J. Khan, Aristide Fattori, and Lorenzo Cavallaro},<br/>
+<span></span> title =        {{CopperDroid: Automatic Reconstruction of Android Malware Behaviors}},<br/>
+<span></span> booktitle = {22nd Annual Network and Distributed System Security Symposium, San Diego, California, USA},<br/>
+<span></span> year =      2015,<br/>
+<span></span> month = {February},<br/>
+<span></span> note = {NDSS}<br/>
+}
+</code>
+        </div>
+    </div>
+</div>
+
+<div class="publication">
+    <div class="pub-info-box">
+        <div class="pub-info-text">
+            <span class="pub-title">PuppetDroid: A User-Centric UI Exerciser for Automatic Dynamic Analysis of Similar Android Applications</span><br/>
+            <span class="pub-authors">Andrea Gianazza, Federico Maggi, Aristide Fattori, Lorenzo Cavallaro, and Stefano Zanero</span><br/>
+            <span class="pub-venue-acronym">CoRR</span> · <a href="https://www.researchgate.net/publication/260294694_PuppetDroid_A_User-Centric_UI_Exerciser_for_Automatic_Dynamic_Analysis_of_Similar_Android_Applications" target="_blank" rel="noopener noreferrer">
+                arXiv CoRR, 2014</a>
+            
+        </div>
+
+        
+
+        <div class="pub-button-box">
+            
+
+            
+
+            
+
+            
+
+            
+            <a data-toggle="collapse" href="#pub-12" role="button"
+               aria-expanded="false" aria-controls="collapseExample">
+                <div class="pub-button bib-button">
+                    <i class="fas fa-quote-right"></i>
+                </div>
+            </a>
+            
+
+            
+            <a href="/downloads/arxiv2014.pdf" target="_blank" rel="noopener noreferrer">
+                <div class="pub-button download-button" style="font-size: 1.1em">
+                    <i class="fas fa-file-pdf"></i>
+                </div>
+            </a>
+            
+
+        </div>
+
+    </div>
+    <div id="pub-12" class="bibtex-container collapse">
+        <div>
+            <code class="bibtex">@article{DBLP:journals/corr/GianazzaMFCZ14,<br/>
+<span></span> author    = {Andrea Gianazza and Federico Maggi and Aristide Fattori and Lorenzo Cavallaro and Stefano Zanero},<br/>
+<span></span> title     = {{PuppetDroid: A User-Centric UI Exerciser for Automatic Dynamic Analysis of Similar Android Applications}},<br/>
+<span></span> journal   = {arXiv CoRR},<br/>
+<span></span> year      = {2014},<br/>
+<span></span> volume    = {abs/1402.4826},<br/>
+<span></span> url       = {http://arxiv.org/abs/1402.4826},<br/>
+<span></span> timestamp = {Wed, 10 Sep 2014 17:05:02 +0200},<br/>
+<span></span> biburl    = {http://dblp.uni-trier.de/rec/bib/journals/corr/GianazzaMFCZ14},<br/>
+<span></span> bibsource = {dblp computer science bibliography, http://dblp.org},<br/>
+<span></span> note = {arXiv CoRR}<br/>
+}
+</code>
+        </div>
+    </div>
+</div>
+
+</div>
+
+    </div>
+
+    <div class="footer">
+        <div class="footer-wrapper">
+
+            <div class="footer-left">
+                <div>&copy 2020 S2Lab ─ made with <a href="https://jekyllrb.com">Jekyll</a></div>
+                <div>We are part of the <a href="https://www.cs.ucl.ac.uk">Department of Computer Science</a>
+                    at <a href="https://www.ucl.ac.uk/">University College London</a>.
+                </div>
+            </div>
+
+            <div class="footer-right">
+                <div>
+                    169 Euston Road<br/>
+                    London, NW1 2AE, UK<br/>
+                    <a href="https://www.google.com/maps/dir//169+Euston+Rd,+London+NW1+2AE/@51.5267641,-0.2018307,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x48761b2572def3b3:0x87d130881cf6bb1a!2m2!1d-0.13162!2d51.5267851">Directions</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>

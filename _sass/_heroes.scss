@@ -1,0 +1,130 @@
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hero > .hero-banner {
+  width: 100%;
+}
+
+.hero-title {
+  font-size: 8em;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+}
+
+.hero-title-quoteless {
+  transform: translate(-50%, -50%);
+}
+
+.hero-text {
+  width: 100%;
+  font-size: 1.8em;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.hero-quote {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.hero-author {
+  font-size: 0.8em;
+}
+
+.hero-logo {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Developer intuition: Kicks in at just over a third of the width of 13 inch laptop */
+@media only screen and (min-width: 600px) {
+
+  /***** HERO IMAGES (min-width: 600px) *****/
+
+  .hero-title {
+    font-size: 14em;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .hero-text {
+    width: 100%;
+    font-size: 3em;
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+
+  .hero-author {
+    font-size: 0.8em;
+  }
+
+  .hero-logo {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* Developer intuition: Kicks in at half width of 13 inch laptop */
+@media only screen and (min-width: 768px) {
+
+  .hero-title {
+    font-size: 14em;
+    top: 10%;
+    left: 2%;
+    text-align: right;
+    transform: translate(0%, -50%);
+  }
+
+  .hero-text {
+    width: inherit;
+    font-size: 4em;
+    top: 93%;
+    right: 2%;
+    text-align: right;
+    transform: translate(0%, -50%);
+  }
+
+  .hero-author {
+    padding-right: 20px;
+  }
+
+  .hero-logo {
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    text-align: right;
+    transform: translate(50%, -50%);
+  }
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up)
+/* Developer intuition: Kicks in at half width of 13 inch laptop */
+@media only screen and (min-width: 1200px) {
+
+}

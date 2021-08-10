@@ -1,0 +1,59 @@
+.footer-wrapper {
+  //height: 120px;
+  background-color: $navbar-dark-grey;
+  color: white;
+  display: flex;
+  font-size: $content-font-size;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.footer-wrapper a {
+  text-decoration: underline;
+  color: white;
+  //font-weight: bold;
+}
+
+.footer-left {
+  width: 100%;
+  text-align: center;
+  //text-align: left;
+}
+
+.footer-right {
+  width: 100%;
+  padding-top: 10px;
+  text-align: center;
+  //text-align: right;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Developer intuition: Kicks in at just over a third of the width of 13 inch laptop */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* Developer intuition: Kicks in at half width of 13 inch laptop */
+@media only screen and (min-width: 768px) {
+
+  .footer-left {
+    width: auto;
+    text-align: left;
+  }
+
+  .footer-right {
+    width: auto;
+    padding-top: 0;
+    text-align: right;
+  }
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up)
+/* Developer intuition: Kicks in at half width of 13 inch laptop */
+@media only screen and (min-width: 1200px) {
+
+}

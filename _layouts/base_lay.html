@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {% if jekyll.environment == 'production' %}
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161731245-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-161731245-1');
+    </script>
+
+    {% endif %}
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>S2Lab · {% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    <meta name="description"
+          content="{% if page.title %}{{ page.title | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ '/images/favicon.ico' | relative_url }}">
+    <link href="{{ site.url }}{{ site.baseurl }}/css/font-awesome/css/all.min.css" rel="stylesheet">
+    <link href="{{ site.url }}{{ site.baseurl }}/css/code-themes/monokai.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="footer-pusher">
+    {% include navbar.html %}
+
+    <div>
+    {{ content }}
+    </div>
+
+    <div class="footer">
+        <div class="footer-wrapper">
+
+            <div class="footer-left">
+                <div>&copy 2020 S2Lab ─ made with <a href="https://jekyllrb.com">Jekyll</a></div>
+                <div>We are part of the <a href="https://www.cs.ucl.ac.uk">Department of Computer Science</a>
+                    at <a href="https://www.ucl.ac.uk/">University College London</a>.
+                </div>
+            </div>
+
+            <div class="footer-right">
+                <div>
+                    169 Euston Road<br/>
+                    London, NW1 2AE, UK<br/>
+                    <a href="https://www.google.com/maps/dir//169+Euston+Rd,+London+NW1+2AE/@51.5267641,-0.2018307,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x48761b2572def3b3:0x87d130881cf6bb1a!2m2!1d-0.13162!2d51.5267851">Directions</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="{{ 'js/bootstrap.min.js' | relative_url }}"></script>
+
+
+</body>
+
+</html>
