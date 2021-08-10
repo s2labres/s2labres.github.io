@@ -1,2 +1,0 @@
-# S2Lab Website
-
