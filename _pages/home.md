@@ -20,14 +20,14 @@ thought.
 
 IN FACT.
 
-Looking back at how we started, it is possible to track our heritage 
-to the underground hacker and academic security communities: 
+Looking back at how we got captivated by "security" at large, it is possible to track our heritage 
+to two particular research efforts from the underground hacker and academic security communities: 
 
 * [Smashing the stack for fun and profit](http://phrack.org/issues/49/14.html), as one of the very first
 attempts to discuss the details of low-level systems security through
 the lens of the exploitation of memory corruption vulnerabilities; and
 
-* [Intrustion Detection via Static Analysis](http://people.eecs.berkeley.edu/~daw/papers/ids-oakland01.pdf),
+* [Intrusion Detection via Static Analysis](http://people.eecs.berkeley.edu/~daw/papers/ids-oakland01.pdf),
 as one of the very first attempts to combine (static) program analysis
 with anomaly detection.
 
