@@ -1,0 +1,11 @@
+Redirect /intriguing /projects/intriguing
+
+Redirect /tesseract /projects/tesseract
+
+Redirect /transcend /projects/transcend
+
+Redirect /ropfuscator /projects/ropfuscator
+
+Redirect /authorship /projects/authorship
+Redirect /aptclass /projects/authorship
+Redirect /projects/aptclass /projects/authorship
