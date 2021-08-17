@@ -24,7 +24,7 @@
      <span></span> archivePrefix = {arXiv}</br>
     }
 
-- title: "Understanding Android App Piggybacking: A Systematic Study of Malicious Code Grafting"
+- title: "On the Dissection of Evasive Malware"
   description: 
   authors: Daniele Cono D'Elia, Emilio Coppa, Federico Palmaro, and Lorenzo Cavallaro
   link:
