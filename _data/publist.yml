@@ -24,6 +24,33 @@
      <span></span> archivePrefix = {arXiv}</br>
     }
 
+- title: "Understanding Android App Piggybacking: A Systematic Study of Malicious Code Grafting"
+  description: 
+  authors: Daniele Cono D'Elia, Emilio Coppa, Federico Palmaro, and Lorenzo Cavallaro
+  link:
+    url: https://ieeexplore.ieee.org/document/9018111
+    download: tifs20.pdf
+  venue:
+    title: IEEE Trans. Information Forensics and Security
+    acronym: IEEE T-IFS
+  date: 2020-02-28
+  tags:
+    - malware
+    - syssec
+  bibtex: |
+    @article{DBLP:journals/tifs/delia,<br/>
+    <span></span> author    = {Daniele Cono D'Elia and Emilio Coppa and Federico Palmaro and Lorenzo Cavallaro},<br/>
+    <span></span> title     = {{On the Dissection of Evasive Malware}},<br/>
+    <span></span> journal   = {{IEEE Trans. Information Forensics and Security}},<br/>
+    <span></span> volume    = {15},<br/>
+    <span></span> pages     = {2750--2765},<br/>
+    <span></span> year      = {2020},<br/>
+    <span></span> url       = {https://doi.org/10.1109/TIFS.2020.2976559},<br/>
+    <span></span> doi       = {10.1109/TIFS.2020.2976559},<br/>
+    <span></span> bibsource = {dblp computer science bibliography, http://dblp.org},<br/>
+    <span></span> note = {IEEE TIFS}<br/>
+    }
+
 - title: "Identifying Authorship Style in Malicious Binaries: Techniques, Challenges & Datasets"
   authors: Jason Gray, Daniele Sgandurra, Lorenzo Cavallaro
   description:
