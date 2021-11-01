@@ -24,6 +24,55 @@
       <span></span> archivePrefix = {arXiv}<br/>
     }
 
+- title: "Investigating Labelless Drift Adaptation for Malware Detection"
+  authors: Zeliang Kan and Feargus Pendlebury and Fabio Pierazzi and Lorenzo Cavallaro
+  description:
+  link:
+    url: 
+    download: aisec47-kanA.pdf
+  venue:
+    title: 14th ACM Workshop on Artificial Intelligence and Security
+    acronym: AISec
+  date: 2021-11-15
+  tags:
+    - selected
+    - mlsec
+    - malware
+  bibtex: |
+    @article{kan,<br/>
+     <span></span> author    = {Zeliang Kan and Feargus Pendlebury and Fabio Pierazzi and Lorenzo Cavallaro},<br/>
+     <span></span> title     = {Investigating Labelless Drift Adaptation for Malware Detection},<br/>
+     <span></span> journal   = {AISec 2021},</br>
+     <span></span> volume    = {},</br>
+     <span></span> year      = {2021},</br>
+     <span></span> url       = {},</br>
+     <span></span> eprint    = {},</br>
+    }
+    
+- title: "INSOMNIA: Towards Concept-Drift Robustness in Network Intrusion Detection"
+  authors: Giuseppina Andresini and Feargus Pendlebury and Fabio Pierazzi and Corrado Loglisci and Annalisa Appice and Lorenzo Cavallaro
+  description:
+  link:
+    url: 
+    download: insomnia.pdf
+  venue:
+    title: 14th ACM Workshop on Artificial Intelligence and Security
+    acronym: AISec
+  date: 2021-11-15
+  tags:
+    - selected
+    - mlsec
+    - malware
+  bibtex: |
+    @article{kan,<br/>
+     <span></span> author    = {Giuseppina Andresini and Feargus Pendlebury and Fabio Pierazzi and Corrado Loglisci and Annalisa Appice and Lorenzo Cavallaro},<br/>
+     <span></span> title     = {INSOMNIA: Towards Concept-Drift Robustness in Network Intrusion Detection},<br/>
+     <span></span> journal   = {AISec 2021},</br>
+     <span></span> volume    = {},</br>
+     <span></span> year      = {2021},</br>
+     <span></span> url       = {},</br>
+     <span></span> eprint    = {},</br>
+    }
 
 - title: "Universal Adversarial Perturbations for Malware"
   authors: Raphael Labaca-Castro, Luis Muñoz-González, Feargus Pendlebury, Gabi Dreo Rodosek, Fabio Pierazzi, Lorenzo Cavallaro
@@ -62,7 +111,6 @@
     acronym: CoRR
   date: 2021-01-20
   tags:
-    - selected
     - syssec
     - malware
   homepage: /projects/authorship/
@@ -89,7 +137,6 @@
     acronym: CoRR
   date: 2020-12-20
   tags:
-    - selected
     - syssec
   homepage: /projects/ropfuscator/
   bibtex: |
@@ -252,7 +299,6 @@
     acronym: RAID
   date: 2018-09-01
   tags:
-    - selected
     - syssec
     - malware
   bibtex: |
@@ -278,7 +324,6 @@
     acronym: USENIX Sec-WOOT
   date: 2017-08-02
   tags:
-    - selected
     - syssec
   award: Best Paper Award
   bibtex: |
@@ -456,7 +501,6 @@
     acronym: ACM CSUR
   date: 2017-01-01
   tags:
-    - selected
     - syssec
     - malware
   bibtex: |
