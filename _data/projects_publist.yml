@@ -216,23 +216,20 @@
     url: https://arxiv.org/abs/2010.03856
     download: transcending.pdf
   venue:
-    title: arXiv CoRR
-    acronym: CoRR
-  date: 2020-10-08
+    title: 43rd IEEE Symposium on Security and Privacy
+    acronym: IEEE S&P
+  date: 2022-05-22
   tags:
     - transcend
     - selected
     - mlsec
     - malware
   bibtex: |
-    @inproceedings {barbero2020,<br/>
-     <span></span> author = {Federico Barbero and Feargus Pendlebury and Fabio Pierazzi and Lorenzo Cavallaro},<br/>
-     <span></span> title = {{Transcending Transcend: Revisiting Malware Classification in the Presence of Concept Drift}},<br/>
-     <span></span> journal = {arXiv CoRR},<br/>
-     <span></span> eprint = {2010.03856},<br/>
-     <span></span> archivePrefix = {arXiv},<br/>
-     <span></span> primaryClass = {cs.CR},<br/>
-     <span></span> year = {2020},<br/>
+    @inproceedings{barbero2022transcendent,<br/>
+      <span></span> author    = {Federico Barbero and Feargus Pendlebury and Fabio Pierazzi and Lorenzo Cavallaro},<br/>
+      <span></span> title     = {Transcending Transcend: Revisiting Malware Classification in the Presence of Concept Drift},<br/>
+      <span></span> booktitle = {{IEEE} Symposium on Security and Privacy},</br>
+      <span></span> year      = {2022},</br>
     }
 
 - title: "Transcend: Detecting Concept Drift in Malware Classification Models"
