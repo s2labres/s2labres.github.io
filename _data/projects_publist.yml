@@ -64,14 +64,11 @@
     - mlsec
     - malware
   bibtex: |
-    @article{kan,<br/>
+    @inproceedings{kan2021adaptation,<br/>
      <span></span> author    = {Zeliang Kan and Feargus Pendlebury and Fabio Pierazzi and Lorenzo Cavallaro},<br/>
      <span></span> title     = {Investigating Labelless Drift Adaptation for Malware Detection},<br/>
-     <span></span> journal   = {AISec 2021},</br>
-     <span></span> volume    = {},</br>
+     <span></span> booktitle = {{ACM} Workshop on Artificial Intelligence and Security ({AISec})},</br>
      <span></span> year      = {2021},</br>
-     <span></span> url       = {},</br>
-     <span></span> eprint    = {},</br>
     }
 
 - title: "Identifying Authorship Style in Malicious Binaries: Techniques, Challenges & Datasets"
