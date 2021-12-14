@@ -1,3 +1,26 @@
+- title: "INSOMNIA: Towards Concept-Drift Robustness in Network Intrusion Detection"
+  authors: Giuseppina Andresini and Feargus Pendlebury and Fabio Pierazzi and Corrado Loglisci and Annalisa Appice and Lorenzo Cavallaro
+  description:
+  link:
+    url:
+    download: insomnia.pdf
+  venue:
+    title: 14th ACM Workshop on Artificial Intelligence and Security
+    acronym: AISec
+  date: 2021-11-15
+  tags:
+    - tesseract
+    - selected
+    - mlsec
+    - malware
+  bibtex: |
+    @inproceedings{andresini2021insomnia,<br/>
+     <span></span> author    = {Giuseppina Andresini and Feargus Pendlebury and Fabio Pierazzi and Corrado Loglisci and Annalisa Appice and Lorenzo Cavallaro},<br/>
+     <span></span> title     = {{INSOMNIA}: Towards Concept-Drift Robustness in Network Intrusion Detection},<br/>
+     <span></span> journal   = {{ACM} Workshop on Artificial Intelligence and Security ({AISec})},</br>
+     <span></span> year      = {2021},</br>
+    }
+
 - title: "Universal Adversarial Perturbations for Malware"
   authors: Raphael Labaca-Castro, Luis Muñoz-González, Feargus Pendlebury, Gabi Dreo Rodosek, Fabio Pierazzi, Lorenzo Cavallaro
   description:

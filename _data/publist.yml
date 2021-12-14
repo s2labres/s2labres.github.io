@@ -1,9 +1,33 @@
+- title: "Transcending Transcend: Revisiting Malware Classification in the Presence of Concept Drift"
+  authors: Federico Barbero, Feargus Pendlebury, Fabio Pierazzi, and Lorenzo Cavallaro
+  description:
+  link:
+    url: https://arxiv.org/abs/2010.03856
+    download: transcending.pdf
+  venue:
+    title: 43rd IEEE Symposium on Security and Privacy
+    acronym: IEEE S&P
+  date: 2022-05-22
+  tags:
+    - transcend
+    - selected
+    - mlsec
+    - malware
+  homepage: /projects/transcend/
+  bibtex: |
+    @inproceedings{barbero2022transcendent,<br/>
+      <span></span> author    = {Federico Barbero and Feargus Pendlebury and Fabio Pierazzi and Lorenzo Cavallaro},<br/>
+      <span></span> title     = {Transcending Transcend: Revisiting Malware Classification in the Presence of Concept Drift},<br/>
+      <span></span> booktitle = {{IEEE} Symposium on Security and Privacy},</br>
+      <span></span> year      = {2022},</br>
+    }
+
 - title: "Dos and Don'ts of Machine Learning in Computer Security"
   authors: Daniel Arp, Erwin Quiring, Feargus Pendlebury, Alexander Warnecke, Fabio Pierazzi, Christian Wressnegger, Lorenzo Cavallaro, Konrad Rieck
   description:
   link:
     url: https://arxiv.org/abs/2010.09470
-    download: 2021-dodo-wm.pdf
+    download: dodo.pdf
   venue:
     title: 31st USENIX Security Symposium
     acronym: USENIX Sec
@@ -12,16 +36,13 @@
     - selected
     - mlsec
     - malware
+  homepage: https://dodo-mlsec.org/
   bibtex: |
-    @article{arp2020dodo,<br/>
+    @inproceedings{arp2022dodo,<br/>
       <span></span> author    = {Daniel Arp and Erwin Quiring and Feargus Pendlebury and Alexander Warnecke and Fabio Pierazzi and Christian Wressnegger and Lorenzo Cavallaro and Konrad Rieck},<br/>
       <span></span> title     = {Dos and Don'ts of Machine Learning in Computer Security},<br/>
-      <span></span> journal   = {USENIX Sec 2022 (to appear)},<br/>
-      <span></span> volume    = {abs/2010.09470},<br/>
-      <span></span> year      = {2020},<br/>
-      <span></span> url       = {http://arxiv.org/abs/2010.09470},<br/>
-      <span></span> eprint    = {2010.09470},<br/>
-      <span></span> archivePrefix = {arXiv}<br/>
+      <span></span> booktitle = {31st USENIX Security Symposium},<br/>
+      <span></span> year      = {2022},<br/>
     }
 
 - title: "Investigating Labelless Drift Adaptation for Malware Detection"
@@ -40,14 +61,11 @@
     - mlsec
     - malware
   bibtex: |
-    @article{kan,<br/>
+    @inproceedings{kan2021adaptation,<br/>
      <span></span> author    = {Zeliang Kan and Feargus Pendlebury and Fabio Pierazzi and Lorenzo Cavallaro},<br/>
      <span></span> title     = {Investigating Labelless Drift Adaptation for Malware Detection},<br/>
-     <span></span> journal   = {AISec 2021},</br>
-     <span></span> volume    = {},</br>
+     <span></span> booktitle = {{ACM} Workshop on Artificial Intelligence and Security ({AISec})},</br>
      <span></span> year      = {2021},</br>
-     <span></span> url       = {},</br>
-     <span></span> eprint    = {},</br>
     }
     
 - title: "INSOMNIA: Towards Concept-Drift Robustness in Network Intrusion Detection"
@@ -65,14 +83,11 @@
     - mlsec
     - malware
   bibtex: |
-    @article{kan,<br/>
+    @inproceedings{andresini2021insomnia,<br/>
      <span></span> author    = {Giuseppina Andresini and Feargus Pendlebury and Fabio Pierazzi and Corrado Loglisci and Annalisa Appice and Lorenzo Cavallaro},<br/>
-     <span></span> title     = {INSOMNIA: Towards Concept-Drift Robustness in Network Intrusion Detection},<br/>
-     <span></span> journal   = {AISec 2021},</br>
-     <span></span> volume    = {},</br>
+     <span></span> title     = {{INSOMNIA}: Towards Concept-Drift Robustness in Network Intrusion Detection},<br/>
+     <span></span> journal   = {{ACM} Workshop on Artificial Intelligence and Security ({AISec})},</br>
      <span></span> year      = {2021},</br>
-     <span></span> url       = {},</br>
-     <span></span> eprint    = {},</br>
     }
 
 - title: "Universal Adversarial Perturbations for Malware"
@@ -173,33 +188,6 @@
      <span></span> year = {2020},<br/>
     }
 
-- title: "Transcending Transcend: Revisiting Malware Classification in the Presence of Concept Drift"
-  authors: Federico Barbero, Feargus Pendlebury, Fabio Pierazzi, and Lorenzo Cavallaro
-  description:
-  link:
-    url: https://arxiv.org/abs/2010.03856
-    download: transcending.pdf
-  venue:
-    title: arXiv CoRR
-    acronym: CoRR
-  date: 2020-10-08
-  tags:
-    - transcend
-    - selected
-    - mlsec
-    - malware
-  homepage: /projects/transcend/
-  bibtex: |
-    @article{barbero2020,<br/>
-      <span></span> author    = {Federico Barbero and Feargus Pendlebury and Fabio Pierazzi and Lorenzo Cavallaro},<br/>
-      <span></span> title     = {Transcending Transcend: Revisiting Malware Classification in the Presence of Concept Drift},<br/>
-      <span></span> journal   = {CoRR},</br>
-      <span></span> volume    = {abs/2010.03856},</br>
-      <span></span> year      = {2020},</br>
-      <span></span> url       = {http://arxiv.org/abs/2010.03856},</br>
-      <span></span> eprint    = {2010.03856},</br>
-      <span></span> archivePrefix = {arXiv}</br>
-    }
 
 - title: "Intriguing Properties of Adversarial ML Attacks in the Problem Space"
   description:
@@ -280,7 +268,7 @@
   homepage: /projects/tesseract/
   bibtex: |
     @inproceedings{pendlebury2019tesseract,<br/>
-     <span></span> author = {Feargus Pendlebury* and Fabio Pierazzi* and Roberto Jordaney and Johannes Kinder and Lorenzo Cavallaro},<br/>
+     <span></span> author = {Feargus Pendlebury and Fabio Pierazzi and Roberto Jordaney and Johannes Kinder and Lorenzo Cavallaro},<br/>
      <span></span> title = {{TESSERACT: Eliminating Experimental Bias in Malware Classification across Space and Time}},<br/>
      <span></span> booktitle = {28th USENIX Security Symposium},<br/>
      <span></span> year = {2019},<br/>
