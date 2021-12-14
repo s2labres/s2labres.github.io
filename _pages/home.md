@@ -46,4 +46,4 @@ collaborators whom we have been working with or have provided
 opportunities for cross-pollination to influence, inspire,
 and further refine our research vision.
 
-We aim at pursuing academic excellence while embracing [disruptive thinking](https://www.ucl.ac.uk/play/live-tv/disruptive-thinking-tv) at its best._
+_We are committed to pursuing academic excellence while embracing [disruptive thinking](https://www.ucl.ac.uk/play/live-tv/disruptive-thinking-tv) at its best._
