@@ -1,3 +1,26 @@
+- title: "INSOMNIA: Towards Concept-Drift Robustness in Network Intrusion Detection"
+  authors: Giuseppina Andresini and Feargus Pendlebury and Fabio Pierazzi and Corrado Loglisci and Annalisa Appice and Lorenzo Cavallaro
+  description:
+  link:
+    url:
+    download: insomnia.pdf
+  venue:
+    title: 14th ACM Workshop on Artificial Intelligence and Security
+    acronym: AISec
+  date: 2021-11-15
+  tags:
+    - tesseract
+    - selected
+    - mlsec
+    - malware
+  bibtex: |
+    @inproceedings{andresini2021insomnia,<br/>
+     <span></span> author    = {Giuseppina Andresini and Feargus Pendlebury and Fabio Pierazzi and Corrado Loglisci and Annalisa Appice and Lorenzo Cavallaro},<br/>
+     <span></span> title     = {{INSOMNIA}: Towards Concept-Drift Robustness in Network Intrusion Detection},<br/>
+     <span></span> journal   = {{ACM} Workshop on Artificial Intelligence and Security ({AISec})},</br>
+     <span></span> year      = {2021},</br>
+    }
+
 - title: "Universal Adversarial Perturbations for Malware"
   authors: Raphael Labaca-Castro, Luis Muñoz-González, Feargus Pendlebury, Gabi Dreo Rodosek, Fabio Pierazzi, Lorenzo Cavallaro
   description:
@@ -23,6 +46,29 @@
      <span></span> url       = {http://arxiv.org/abs/2102.06747},</br>
      <span></span> eprint    = {2102.06747},</br>
      <span></span> archivePrefix = {arXiv}</br>
+    }
+
+- title: "Investigating Labelless Drift Adaptation for Malware Detection"
+  authors: Zeliang Kan and Feargus Pendlebury and Fabio Pierazzi and Lorenzo Cavallaro
+  description:
+  link:
+    url:
+    download: aisec47-kanA.pdf
+  venue:
+    title: 14th ACM Workshop on Artificial Intelligence and Security
+    acronym: AISec
+  date: 2021-11-15
+  tags:
+    - drift
+    - selected
+    - mlsec
+    - malware
+  bibtex: |
+    @inproceedings{kan2021adaptation,<br/>
+     <span></span> author    = {Zeliang Kan and Feargus Pendlebury and Fabio Pierazzi and Lorenzo Cavallaro},<br/>
+     <span></span> title     = {Investigating Labelless Drift Adaptation for Malware Detection},<br/>
+     <span></span> booktitle = {{ACM} Workshop on Artificial Intelligence and Security ({AISec})},</br>
+     <span></span> year      = {2021},</br>
     }
 
 - title: "Identifying Authorship Style in Malicious Binaries: Techniques, Challenges & Datasets"
@@ -170,23 +216,20 @@
     url: https://arxiv.org/abs/2010.03856
     download: transcending.pdf
   venue:
-    title: arXiv CoRR
-    acronym: CoRR
-  date: 2020-10-08
+    title: 43rd IEEE Symposium on Security and Privacy
+    acronym: IEEE S&P
+  date: 2022-05-22
   tags:
     - transcend
     - selected
     - mlsec
     - malware
   bibtex: |
-    @inproceedings {barbero2020,<br/>
-     <span></span> author = {Federico Barbero and Feargus Pendlebury and Fabio Pierazzi and Lorenzo Cavallaro},<br/>
-     <span></span> title = {{Transcending Transcend: Revisiting Malware Classification in the Presence of Concept Drift}},<br/>
-     <span></span> journal = {arXiv CoRR},<br/>
-     <span></span> eprint = {2010.03856},<br/>
-     <span></span> archivePrefix = {arXiv},<br/>
-     <span></span> primaryClass = {cs.CR},<br/>
-     <span></span> year = {2020},<br/>
+    @inproceedings{barbero2022transcendent,<br/>
+      <span></span> author    = {Federico Barbero and Feargus Pendlebury and Fabio Pierazzi and Lorenzo Cavallaro},<br/>
+      <span></span> title     = {Transcending Transcend: Revisiting Malware Classification in the Presence of Concept Drift},<br/>
+      <span></span> booktitle = {{IEEE} Symposium on Security and Privacy},</br>
+      <span></span> year      = {2022},</br>
     }
 
 - title: "Transcend: Detecting Concept Drift in Malware Classification Models"

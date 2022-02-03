@@ -1,0 +1,54 @@
+---
+layout: base_lay
+---
+<div class="main-content proj-content">
+    <div class="headline">
+        <img src="{{'images/drift.gif' | relative_url}}" width=60% height=auto/>
+        <div>
+            <h1 class="drift-header">Proj. Drift</h1>
+            <i>Investigating Labelless Drift Adaptation for Malware Detection.</i>
+        </div>
+    </div>
+
+    <h2>News</h2>
+    <ul>
+        <li><i>Sept. 2021</i>: Our paper "Investigating Labelless Drift Adaptation for Malware 
+            Detection" has been accepted at <b>AISec, 2021</b>.</li>
+    </ul>
+
+    <h2>Access</h2>
+    We are hosting the DroidEvolver++ patch on a private Bitbucket repository, under an open source license.
+    To get access to the repository, please complete the following form:
+
+    <div class="access-form">
+        <a href="https://forms.gle/DtqaMjDDR2tpG3Tn6" target="_blank">> FORM TO REQUEST ACCESS <</a>
+    </div>
+
+
+    <h2>Papers</h2>
+
+    {% assign sorted = site.data.projects_publist | where: "tags", "drift" %}
+    {% for pub in sorted %}
+    {% include publication_reference.html %}
+    {% endfor %}
+
+    <h2>People</h2>
+    <ul>
+        {% assign member = site.data.team | where: "lastname", "Kan" | first %}
+        <li><a href={{member.profile}}><i>Zeliang Kan</i></a>, Ph.D. Student, King's College London &amp; 
+            University College London.
+        </li>
+        {% assign member = site.data.team | where: "lastname", "Pendlebury" | first %}
+        <li><a href={{member.profile}}><i>Feargus Pendlebury</i></a>, Ph.D. Student, University College London &amp; 
+            Royal Holloway, University of London &amp; International Computer Science Institute.
+        </li>
+        {% assign member = site.data.team | where: "lastname", "Pierazzi" | first %}
+        <li><a href={{member.profile}}><i>Fabio Pierazzi</i></a>, Lecturer (Assistant Professor), 
+            King's College London.
+        </li>
+        {% assign member = site.data.team | where: "lastname", "Cavallaro" | first %}
+        <li><a href={{member.profile}}><i>Lorenzo Cavallaro</i></a>, Full Professor of Computer
+            Science, University College London.
+        </li>
+    </ul>
+</div>
