@@ -1,3 +1,26 @@
+- title: "Dos and Don'ts of Machine Learning in Computer Security"
+  authors: Daniel Arp, Erwin Quiring, Feargus Pendlebury, Alexander Warnecke, Fabio Pierazzi, Christian Wressnegger, Lorenzo Cavallaro, Konrad Rieck
+  description:
+  link:
+    url: https://arxiv.org/abs/2010.09470
+    download: dodo.pdf
+  venue:
+    title: 31st USENIX Security Symposium
+    acronym: USENIX Sec | Distinguished Paper Award
+  date: 2022-08-10
+  tags:
+    - selected
+    - mlsec
+    - malware
+  homepage: https://dodo-mlsec.org/
+  bibtex: |
+    @inproceedings{arp2022dodo,<br/>
+      <span></span> author    = {Daniel Arp and Erwin Quiring and Feargus Pendlebury and Alexander Warnecke and Fabio Pierazzi and Christian Wressnegger and Lorenzo Cavallaro and Konrad Rieck},<br/>
+      <span></span> title     = {Dos and Don'ts of Machine Learning in Computer Security},<br/>
+      <span></span> booktitle = {31st USENIX Security Symposium},<br/>
+      <span></span> year      = {2022},<br/>
+    }
+
 - title: "Transcending Transcend: Revisiting Malware Classification in the Presence of Concept Drift"
   authors: Federico Barbero, Feargus Pendlebury, Fabio Pierazzi, and Lorenzo Cavallaro
   description:
@@ -22,27 +45,57 @@
       <span></span> year      = {2022},</br>
     }
 
-- title: "Dos and Don'ts of Machine Learning in Computer Security"
-  authors: Daniel Arp, Erwin Quiring, Feargus Pendlebury, Alexander Warnecke, Fabio Pierazzi, Christian Wressnegger, Lorenzo Cavallaro, Konrad Rieck
+- title: "Jigsaw Puzzle: Selective Backdoor Attack to Subvert Malware Classifiers"
+  authors: Limin Yang, Zhi Chen, Jacopo Cortellazzi, Feargus Pendlebury, Kevin Tu, Fabio Pierazzi, Lorenzo Cavallaro, Gang Wang
   description:
   link:
-    url: https://arxiv.org/abs/2010.09470
-    download: dodo.pdf
+    url: https://arxiv.org/abs/2202.05470
+    download: jigsaw.pdf
   venue:
-    title: 31st USENIX Security Symposium
-    acronym: USENIX Sec | Distinguished Paper Award
-  date: 2022-08-10
+    title: arXiv CoRR
+    acronym: CoRR
+  date: 2022-02-11
   tags:
     - selected
-    - mlsec
+    - syssec
     - malware
-  homepage: https://dodo-mlsec.org/
   bibtex: |
-    @inproceedings{arp2022dodo,<br/>
-      <span></span> author    = {Daniel Arp and Erwin Quiring and Feargus Pendlebury and Alexander Warnecke and Fabio Pierazzi and Christian Wressnegger and Lorenzo Cavallaro and Konrad Rieck},<br/>
-      <span></span> title     = {Dos and Don'ts of Machine Learning in Computer Security},<br/>
-      <span></span> booktitle = {31st USENIX Security Symposium},<br/>
-      <span></span> year      = {2022},<br/>
+    @article{yang2022jigsaw,<br/>
+     <span></span> author    = {Limin Yang, Zhi Chen, Jacopo Cortellazzi, Feargus Pendlebury, Kevin Tu, Fabio Pierazzi, Lorenzo Cavallaro, Gang Wang},<br/>
+     <span></span> title     = {Jigsaw Puzzle: Selective Backdoor Attack
+     to Subvert Malware Classifiers},<br/>
+     <span></span> journal   = {CoRR},</br>
+     <span></span> volume    = {abs/2202.05470},</br>
+     <span></span> year      = {2022},</br>
+     <span></span> url       = {https://arxiv.org/abs/2202.05470},</br>
+     <span></span> eprint    = {2202.05470},</br>
+     <span></span> archivePrefix = {arXiv}</br>
+    }
+
+- title: "Realizable Universal Adversarial Perturbations for Malware"
+  authors: Raphael Labaca-Castro, Luis Muñoz-González, Feargus Pendlebury, Gabi Dreo Rodosek, Fabio Pierazzi, Lorenzo Cavallaro
+  description:
+  link:
+    url: https://arxiv.org/abs/2102.06747
+    download: universal.pdf
+  venue:
+    title: arXiv CoRR
+    acronym: CoRR
+  date: 2022-02-02
+  tags:
+    - selected
+    - syssec
+    - malware
+  bibtex: |
+    @article{labacacastro2022uaps,<br/>
+     <span></span> author    = {Raphael Labaca-Castro and Luis Muñoz-González and Feargus Pendlebury and Gabi Dreo Rodosek and Fabio Pierazzi and Lorenzo Cavallaro},<br/>
+     <span></span> title     = {Realizable Universal Adversarial Perturbations for Malware},<br/>
+     <span></span> journal   = {CoRR},</br>
+     <span></span> volume    = {abs/2102.06747},</br>
+     <span></span> year      = {2022},</br>
+     <span></span> url       = {https://arxiv.org/abs/2102.06747},</br>
+     <span></span> eprint    = {2102.06747},</br>
+     <span></span> archivePrefix = {arXiv}</br>
     }
 
 - title: "Investigating Labelless Drift Adaptation for Malware Detection"
@@ -88,32 +141,6 @@
      <span></span> title     = {{INSOMNIA}: Towards Concept-Drift Robustness in Network Intrusion Detection},<br/>
      <span></span> journal   = {{ACM} Workshop on Artificial Intelligence and Security ({AISec})},</br>
      <span></span> year      = {2021},</br>
-    }
-
-- title: "Universal Adversarial Perturbations for Malware"
-  authors: Raphael Labaca-Castro, Luis Muñoz-González, Feargus Pendlebury, Gabi Dreo Rodosek, Fabio Pierazzi, Lorenzo Cavallaro
-  description:
-  link:
-    url: https://arxiv.org/abs/2102.06747
-    download: universal.pdf
-  venue:
-    title: arXiv CoRR
-    acronym: CoRR
-  date: 2021-02-20
-  tags:
-    - selected
-    - syssec
-    - malware
-  bibtex: |
-    @article{labacacastro2021uaps,<br/>
-     <span></span> author    = {Raphael Labaca-Castro and Luis Muñoz-González and Feargus Pendlebury and Gabi Dreo Rodosek and Fabio Pierazzi and Lorenzo Cavallaro},<br/>
-     <span></span> title     = {Universal Adversarial Perturbations for Malware},<br/>
-     <span></span> journal   = {CoRR},</br>
-     <span></span> volume    = {abs/2102.06747},</br>
-     <span></span> year      = {2021},</br>
-     <span></span> url       = {http://arxiv.org/abs/2102.06747},</br>
-     <span></span> eprint    = {2102.06747},</br>
-     <span></span> archivePrefix = {arXiv}</br>
     }
 
 - title: "Identifying Authorship Style in Malicious Binaries: Techniques, Challenges & Datasets"
