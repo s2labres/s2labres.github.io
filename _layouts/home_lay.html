@@ -12,7 +12,7 @@ layout: heroes_lay
         <h3>Latest News</h3>
         <ul>
             {% assign sorted = site.data.news | sort: 'date' | reverse %}
-            {% for item in sorted limit: 5%}
+            {% for item in sorted limit: 10%}
             <li><i>{{item.date | date: "%B %Y" }}</i>: {{ item.content }}</li>
             {% endfor %}
         </ul>
