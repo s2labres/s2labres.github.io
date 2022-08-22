@@ -77,10 +77,10 @@
 - firstname: Santanu
   lastname: Dash
   photo: images/teampic/santanu.jpg
-  email: s.dash@surrey.ac.uk
+  email: santanu.dash@rhul.ac.uk
   profile: http://santanu.uk/
   role: past-postdoc
-  location: University of Surrey (Lecturer)
+  location: Royal Holloway, University of London (Lecturer)
 
 - firstname: Guillermo 
   #lastname: Suarez de Tangil Rotaeche 
@@ -89,7 +89,7 @@
   email: guillermo.suarez-tangil@kcl.ac.uk 
   profile: https://nms.kcl.ac.uk/guillermo.suarez-tangil/
   role: past-postdoc
-  location: IMDEA Networks (Res. Assistant Prof.) and King's College London
+  location: IMDEA Networks (Res. Assistant Prof.) 
 
 - firstname: Kumar
   lastname: Sharad
