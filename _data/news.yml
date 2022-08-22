@@ -5,6 +5,12 @@
 - date: 2022-08-01
   content: "Daniel, Feargus, Fabio, and Lorenzo are attending USENIX Sec 2022 in Boston to present our work <a href=\"https://dodo-mlsec.org/\">Dos and Don't of Machine Learning for Computer Security</a>"
 
+- date: 2022-06-01
+  content: "Lorenzo delivers the keynote \"Transcending Transcend: Revisiting Malware Classification in the Presence of Concept Drift\" at the <a href=\"https://cybersec.kcist.kit.edu/87.php\">KASTEL Distinguished Lecture Series</a>"
+
+- date: 2022-06-01
+  content: "Lorenzo delivers the keynote \"Trustworthy Machine Learning... for Systems Security\" at the first \"post-pandemic\" UCL ACE-CSR Open Day"
+
 - date: 2022-04-01
   content: "Federico, Feargus, Fabio, and Lorenzo are attending IEEE S&P 2022 in San Francisco to present our work <a href=\"https://s2lab.kcl.ac.uk/downloads/transcending.pdf\">\"Transcending Transcend: Revisiting Malware Classification in the Presence of Concept Drift\"</a>"
 
