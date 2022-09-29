@@ -17,7 +17,8 @@ Cavallaro](https://scholar.google.com/citations?user=oWT7fIYAAAAJ&hl=en),
 making sure you append the suffix " Asimov" (no quotes, note the heading
 space) to the email
 subject line of the contact link (The email might get lost in the inbox
-easily without a proper totem.)
+easily without a proper totem.) Please make sure you also fill out [this
+form](https://bit.ly/JoinS2Lab); read more at the end of this page.
 
 For research-related applications, visits, and collaboration
 opportunities, please ensure you also read the information below.  
