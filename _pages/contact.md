@@ -18,7 +18,7 @@ making sure you append the suffix " Asimov" (no quotes, note the heading
 space) to the email
 subject line of the contact link (The email might get lost in the inbox
 easily without a proper totem.) Please make sure you also fill out [this
-form](https://bit.ly/JoinS2Lab); read more at the end of this page.
+form](https://bit.ly/DoJoinS2Lab); read more at the end of this page.
 
 For research-related applications, visits, and collaboration
 opportunities, please ensure you also read the information below.  
@@ -90,7 +90,7 @@ PhD students, post doctoral researchers, or currently working academia
 or in industry. 
 
 If you managed to read until here, we would kindly ask you to complement
-your application by filling out [this form](https://bit.ly/JoinS2Lab).
+your application by filling out [this form](https://bit.ly/DoJoinS2Lab).
 Don't rush your answers and take your time to provide as much details
 and context as possible. Shoot us an email with your CV, research
 interests, and a reminder you have indeed filled out the form: please
