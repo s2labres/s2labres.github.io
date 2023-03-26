@@ -1,3 +1,29 @@
+- title: "Jigsaw Puzzle: Selective Backdoor Attack to Subvert Malware Classifiers"
+  authors: Limin Yang, Zhi Chen, Jacopo Cortellazzi, Feargus Pendlebury, Kevin Tu, Fabio Pierazzi, Lorenzo Cavallaro, Gang Wang
+  description:
+  link:
+    url: https://arxiv.org/abs/2202.05470
+    download: jigsaw.pdf
+  venue:
+    title: 44th IEEE Symposium on Security and Privacy
+    acronym: IEEE S&P
+  date: 2023-05-22
+  tags:
+    - selected
+    - syssec
+    - malware
+  bibtex: |
+    @article{yang2022jigsaw,<br/>
+     <span></span> author    = {Limin Yang, Zhi Chen, Jacopo Cortellazzi, Feargus Pendlebury, Kevin Tu, Fabio Pierazzi, Lorenzo Cavallaro, Gang Wang},<br/>
+     <span></span> title     = {Jigsaw Puzzle: Selective Backdoor Attack
+     to Subvert Malware Classifiers},<br/>
+     <span></span> booktitle = {{IEEE} Symposium on Security and Privacy},</br>
+     <span></span> volume    = {abs/2202.05470},</br>
+     <span></span> year      = {2023},</br>
+     <span></span> url       = {https://arxiv.org/abs/2202.05470},</br>
+     <span></span> eprint    = {2202.05470},</br>
+    }
+
 - title: "Dos and Don'ts of Machine Learning in Computer Security"
   authors: Daniel Arp, Erwin Quiring, Feargus Pendlebury, Alexander Warnecke, Fabio Pierazzi, Christian Wressnegger, Lorenzo Cavallaro, Konrad Rieck
   description:
@@ -43,32 +69,6 @@
       <span></span> title     = {Transcending Transcend: Revisiting Malware Classification in the Presence of Concept Drift},<br/>
       <span></span> booktitle = {{IEEE} Symposium on Security and Privacy},</br>
       <span></span> year      = {2022},</br>
-    }
-
-- title: "Jigsaw Puzzle: Selective Backdoor Attack to Subvert Malware Classifiers"
-  authors: Limin Yang, Zhi Chen, Jacopo Cortellazzi, Feargus Pendlebury, Kevin Tu, Fabio Pierazzi, Lorenzo Cavallaro, Gang Wang
-  description:
-  link:
-    url: https://arxiv.org/abs/2202.05470
-    download: jigsaw.pdf
-  venue:
-    title: 44th IEEE Symposium on Security and Privacy (to appear)
-    acronym: IEEE S&P
-  date: 2023-05-22
-  tags:
-    - selected
-    - syssec
-    - malware
-  bibtex: |
-    @article{yang2022jigsaw,<br/>
-     <span></span> author    = {Limin Yang, Zhi Chen, Jacopo Cortellazzi, Feargus Pendlebury, Kevin Tu, Fabio Pierazzi, Lorenzo Cavallaro, Gang Wang},<br/>
-     <span></span> title     = {Jigsaw Puzzle: Selective Backdoor Attack
-     to Subvert Malware Classifiers},<br/>
-     <span></span> booktitle = {{IEEE} Symposium on Security and Privacy},</br>
-     <span></span> volume    = {abs/2202.05470},</br>
-     <span></span> year      = {2023},</br>
-     <span></span> url       = {https://arxiv.org/abs/2202.05470},</br>
-     <span></span> eprint    = {2202.05470},</br>
     }
 
 - title: "Realizable Universal Adversarial Perturbations for Malware"
