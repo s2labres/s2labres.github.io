@@ -1,3 +1,12 @@
+- date: 2023-03-15
+  content: "\"Jigsaw Puzzle: Selective Backdoor Attack to Subvert Malware Classifiers\" accepted to appear at IEEE S&P 2023. See you in SF!"
+
+- date: 2023-03-25
+  content: "\"Is It Overkill? Analyzing Feature-Space Concept Drift in Malware Detectors\" accepted to appear at DLSP 2023, co-located with IEEE S&P 2023"
+
+- date: 2023-03-25
+  content: "\"ROPfuscator: Robust Obfuscation with ROP\" accepted to appear at WOOT 2023, co-located with IEEE S&P 2023"
+
 - date: 2022-08-10
   content: "Truly humbled to receive one of the USENIX Security 2022
   <b>Distinguished Paper Awards</b> for our work <a href=\"https://dodo-mlsec.org/\">Dos and Don't of Machine Learning for Computer Security</a>"
