@@ -52,9 +52,9 @@
     url: https://arxiv.org/abs/2202.05470
     download: jigsaw.pdf
   venue:
-    title: arXiv CoRR
-    acronym: CoRR
-  date: 2022-02-11
+    title: 44th IEEE Symposium on Security and Privacy (to appear)
+    acronym: IEEE S&P
+  date: 2023-05-22
   tags:
     - selected
     - syssec
@@ -64,12 +64,11 @@
      <span></span> author    = {Limin Yang, Zhi Chen, Jacopo Cortellazzi, Feargus Pendlebury, Kevin Tu, Fabio Pierazzi, Lorenzo Cavallaro, Gang Wang},<br/>
      <span></span> title     = {Jigsaw Puzzle: Selective Backdoor Attack
      to Subvert Malware Classifiers},<br/>
-     <span></span> journal   = {CoRR},</br>
+     <span></span> booktitle = {{IEEE} Symposium on Security and Privacy},</br>
      <span></span> volume    = {abs/2202.05470},</br>
-     <span></span> year      = {2022},</br>
+     <span></span> year      = {2023},</br>
      <span></span> url       = {https://arxiv.org/abs/2202.05470},</br>
      <span></span> eprint    = {2202.05470},</br>
-     <span></span> archivePrefix = {arXiv}</br>
     }
 
 - title: "Realizable Universal Adversarial Perturbations for Malware"
