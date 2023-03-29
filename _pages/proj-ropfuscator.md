@@ -1,5 +1,5 @@
 ---
-title: " Intertwining ROP Gadgets and Opaque Predicates for Robust Obfuscation."
+title: "ROPfuscator: Robust Obfuscation with ROP"
 layout: proj_ropfuscator_lay
 permalink: /projects/ropfuscator/
 ---
