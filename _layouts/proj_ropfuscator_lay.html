@@ -2,46 +2,68 @@
 layout: base_lay
 ---
 <div class="main-content proj-content">
-    <div class="headline">
-        <div class="glitch-title-wrapper">
-            <h1 class="rop">ROPFUSCATOR</h1>
-        </div>
+  <div class="headline">
+    <div class="glitch-title-wrapper">
+      <h1 class="rop">ROPFUSCATOR</h1>
     </div>
+  </div>
 
-    <h2>Access</h2>
-    We are hosting ROPFuscator code on a private repository. To get access to the
-    repository, please complete the following form:
+  <h2>Welcome to ROPFuscator!</h2>
+  <p>
+    We're thrilled to share that <b>ROPFuscator</b> is now publicly available on <b><a
+        href="https://github.com/ropfuscator/ropfuscator" target="_blank">GitHub</a></b>! We invite you to explore the
+    project, learn from it, and contribute to its growth. ROPFuscator is a <b>fine-grained code obfuscation
+      framework</b> for LLVM-supported languages using ROP (return-oriented programming), designed to transform regular
+    instructions into ROP chains and enhance security.
+  </p>
 
-    <div class="access-form">
-        <a href="https://forms.gle/2N88ikdSbRyrbjbm9" target="_blank">> FORM TO REQUEST ACCESS <</a>
-    </div>
+  <h3>Key Improvements</h3>
+  <p>
+    Our project focuses on <b>reproducibility</b> and <b>ease of integration</b>, making it more accessible to a wide
+    range of users. We've made several key improvements, including leveraging the <a href="https://nixos.org/"
+      target="_blank">Nix package manager</a> for reliable and reproducible builds and enabling transparent obfuscation
+    for upstream Nix packages. These enhancements allow users to seamlessly integrate ROPFuscator into their existing
+    workflows and test its capabilities.
+  </p>
 
-    <h2>Papers</h2>
+  <h3>Collaboration and Contributions</h3>
+  <p>
+    We believe in the power of collaboration and are eager to see ROPFuscator grow with the help of the community. We
+    especially encourage students interested in publishing academic research using ROPFuscator to contribute. Your
+    insights and expertise can make a significant impact on the project, and we'd love to support your research
+    endeavors.
 
-    {% assign sorted = site.data.projects_publist | where: "tags", "ropfuscator" %}
-    {% for pub in sorted %}
-    {% include publication_reference.html %}
-    {% endfor %}
+    If you're interested in collaborating or discussing potential extensions, please reach out to the
+    authors!
+  </p>
+
+  <h2>Papers</h2>
+
+  {% assign sorted = site.data.projects_publist | where: "tags", "ropfuscator" %}
+  {% for pub in sorted %}
+  {% include publication_reference.html %}
+  {% endfor %}
 
 
-    <h2>People</h2>
-    <ul>
-        {% assign member = site.data.team | where: "lastname", "De Pasquale" | first %}
-        <li>
-            <a href={{member.profile}}><i>Giulio De Pasquale</i></a>, Ph.D. Student, King's College London</li>
-        {% assign member = site.data.team | where: "lastname", "Nakanishi" | first %}
-        <li>
-            <a href={{member.profile}}><i>Fukutomo Nakanishi</i></a>, Security researcher, Toshiba Corporation; visiting researcher (until February 2021), King's College London
-        </li>
-        {% assign member = site.data.team | where: "lastname", "Ferla" | first %}
-        <li>
-            <a href={{member.profile}}><i>Daniele Ferla</i></a>, Ph.D. Student, University of Bologna
-        </li>
-        {% assign member = site.data.team | where: "lastname", "Cavallaro" | first %}
-        <li>
-            <a href={{member.profile}}><i>Lorenzo Cavallaro</i></a>, Full Professor of Computer
-            Science, Chair in Cybersecurity (Systems Security), King's College London
-        </li>
-    </ul>
+  <h2>People</h2>
+  <ul>
+    {% assign member = site.data.team | where: "lastname", "De Pasquale" | first %}
+    <li>
+      <a href={{member.profile}}><i>Giulio De Pasquale</i></a>, Ph.D. Student, King's College London
+    </li>
+    {% assign member = site.data.team | where: "lastname", "Nakanishi" | first %}
+    <li>
+      <a href={{member.profile}}><i>Fukutomo Nakanishi</i></a>, Security researcher, Toshiba Corporation; visiting
+      researcher (until February 2021), King's College London
+    </li>
+    {% assign member = site.data.team | where: "lastname", "Ferla" | first %}
+    <li>
+      <a href={{member.profile}}><i>Daniele Ferla</i></a>, Ph.D. Student, University of Bologna
+    </li>
+    {% assign member = site.data.team | where: "lastname", "Cavallaro" | first %}
+    <li>
+      <a href={{member.profile}}><i>Lorenzo Cavallaro</i></a>, Full Professor of Computer
+      Science, Chair in Cybersecurity (Systems Security), King's College London
+    </li>
+  </ul>
 </div>
-
