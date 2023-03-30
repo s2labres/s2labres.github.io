@@ -124,6 +124,28 @@
      <span></span> archivePrefix = {arXiv}</br>
     }
 
+  title: "ROPfuscator: Robust Obfuscation with ROP"
+  authors: Giulio De Pasquale, Fukutomo Nakanishi, Daniele Ferla, Lorenzo Cavallaro
+  description:
+  link:
+    url: https://arxiv.org/abs/2012.09163
+    download: ropfuscator.pdf
+  venue:
+    title: 17th IEEE Workshop on Offensive Technologies (WOOT)
+    acronym: WOOT
+  date: 2023-03-31
+  tags:
+    - ropfuscator
+    - selected
+    - syssec
+  bibtex: |
+    @article{depasquale2023rop,<br/>
+     <span></span> author    = {Giulio De Pasquale and Fukutomo Nakanishi and Daniele Ferla and Lorenzo Cavallaro},<br/>
+     <span></span> title     = {Intertwining ROP Gadgets and Opaque Predicates for Robust Obfuscation},<br/>
+     <span></span> journal   = {17th IEEE Workshop on Offensive Technologies (WOOT)},</br>
+     <span></span> year      = {2023},</br>
+    }
+
 - title: "TESSERACT: Eliminating Experimental Bias in Malware Classification across Space and Time"
   description: We argue that results are commonly inflated due to two pervasive sources of experimental bias 'spatial bias' caused by distributions of training and testing data that are not representative of a real-world deployment; and "temporal bias" caused by incorrect time splits of training and testing sets, leading to impossible configurations.
   authors: Feargus Pendlebury*, Fabio Pierazzi*, Roberto Jordaney, Johannes Kinder, and Lorenzo Cavallaro
