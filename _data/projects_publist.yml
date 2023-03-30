@@ -110,7 +110,6 @@
   date: 2020-12-20
   tags:
     - ropfuscator
-    - selected
     - syssec
   bibtex: |
     @article{nakanishi2020rop,<br/>
@@ -129,7 +128,6 @@
   description:
   link:
     url: https://arxiv.org/abs/2012.09163
-    download: ropfuscator.pdf
   venue:
     title: 17th IEEE Workshop on Offensive Technologies (WOOT)
     acronym: WOOT
