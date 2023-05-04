@@ -110,7 +110,6 @@
   date: 2020-12-20
   tags:
     - ropfuscator
-    - selected
     - syssec
   bibtex: |
     @article{nakanishi2020rop,<br/>
@@ -122,6 +121,27 @@
      <span></span> url       = {http://arxiv.org/abs/2012.09163},</br>
      <span></span> eprint    = {2012.09163},</br>
      <span></span> archivePrefix = {arXiv}</br>
+    }
+
+  title: "ROPfuscator: Robust Obfuscation with ROP"
+  authors: Giulio De Pasquale, Fukutomo Nakanishi, Daniele Ferla, Lorenzo Cavallaro
+  description:
+  link:
+    url: https://arxiv.org/abs/2012.09163
+  venue:
+    title: 17th IEEE Workshop on Offensive Technologies (WOOT)
+    acronym: WOOT
+  date: 2023-03-31
+  tags:
+    - ropfuscator
+    - selected
+    - syssec
+  bibtex: |
+    @article{depasquale2023rop,<br/>
+     <span></span> author    = {Giulio De Pasquale and Fukutomo Nakanishi and Daniele Ferla and Lorenzo Cavallaro},<br/>
+     <span></span> title     = {Intertwining ROP Gadgets and Opaque Predicates for Robust Obfuscation},<br/>
+     <span></span> journal   = {17th IEEE Workshop on Offensive Technologies (WOOT)},</br>
+     <span></span> year      = {2023},</br>
     }
 
 - title: "TESSERACT: Eliminating Experimental Bias in Malware Classification across Space and Time"
