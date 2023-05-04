@@ -1,0 +1,30 @@
+    .localwhite {
+      color: white;
+    }
+    .importantword {
+      color: #F00000 ;
+    }
+    dl.bib2xhtml dt  {
+      float: left;
+    }
+    dl.bib2xhtml dd {
+      margin: 0 0 2em 3em;
+    }
+    .greybox {
+      /* background: rgba(0,0,0,0.09); */
+    }
+    .greybox a {
+      border-bottom: 2px solid #A80000;
+    }
+    .regsans {
+      font-family: 'open_sansregular', sans-serif;
+      font-size: 1.2em;
+    }
+
+    .leftalign {
+      text-align: left;
+    }
+    p {
+      font-weight: 500;
+      color: white;
+    }
