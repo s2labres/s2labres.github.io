@@ -24,6 +24,29 @@
      <span></span> eprint    = {2202.05470},</br>
     }
 
+- title: "Is It Overkill? Analyzing Feature-Space Concept Drift in Malware Detectors"
+  authors: Zhi Chen and Zhenning Zhang and Zeliang Kan and Limin Yang and and Jacopo Cortellazzi and Feargus Pendlebury and Fabio Pierazzi and Lorenzo Cavallaro and Gang Wang
+  description:
+  link:
+    url: 
+    download: feature-drift.pdf
+  venue:
+    title: 6th IEEE Workshop on Deep Learning Security and Privacy
+    acronym: DLSP
+  date: 2023-05-25
+  tags:
+    - drift
+    - selected
+    - mlsec
+    - malware
+  bibtex: |
+    @inproceedings{chen23dlsp,<br/>
+     <span></span> author    = {Zhi Chen and Zhenning Zhang and Zeliang Kan and Limin Yang and and Jacopo Cortellazzi and Feargus Pendlebury and Fabio Pierazzi and Lorenzo Cavallaro and Gang Wang},<br/>
+     <span></span> title     = {Is It Overkill? Analyzing Feature-Space Concept Drift in Malware Detectors},<br/>
+     <span></span> booktitle = {{IEEE} Workshop on Deep Learning Security and Privacy ({DLSP})},</br>
+     <span></span> year      = {2023},</br>
+    }
+
 - title: "Dos and Don'ts of Machine Learning in Computer Security"
   authors: Daniel Arp, Erwin Quiring, Feargus Pendlebury, Alexander Warnecke, Fabio Pierazzi, Christian Wressnegger, Lorenzo Cavallaro, Konrad Rieck
   description:
