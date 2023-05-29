@@ -47,6 +47,27 @@
      <span></span> year      = {2023},</br>
     }
 
+- title: "ROPfuscator: Robust Obfuscation with ROP"
+  authors: Giulio De Pasquale and Fukutomo Nakanishi and Daniele Ferla and Lorenzo Cavallaro
+  description:
+  link:
+    url: 
+    download: woot23-paper4.pdf
+  homepage: /projects/ropfuscator
+  venue:
+    title: 17th IEEE Workshop on Offensive Technologies
+    acronym: WOOT
+  date: 2023-05-25
+  tags:
+    - syssec
+  bibtex: |
+    @inproceedings{depasquale23,<br/>
+     <span></span> author    = {Giulio De Pasquale and Fukutomo Nakanishi and Daniele Ferla and Lorenzo Cavallaro},<br/>
+     <span></span> title     = {ROPfuscator: Robust Obfuscation with ROP},<br/>
+     <span></span> booktitle = {{IEEE} Workshop on Offensive Technologies ({WOOT})},</br>
+     <span></span> year      = {2023},</br>
+    }
+
 - title: "Dos and Don'ts of Machine Learning in Computer Security"
   authors: Daniel Arp, Erwin Quiring, Feargus Pendlebury, Alexander Warnecke, Fabio Pierazzi, Christian Wressnegger, Lorenzo Cavallaro, Konrad Rieck
   description:
