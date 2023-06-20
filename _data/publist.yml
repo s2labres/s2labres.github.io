@@ -693,6 +693,7 @@
   tags:
     - mlsec
     - malware
+    - selected
   bibtex: |
     @inproceedings{aisec16,<br/>
     <span></span> author    = {Amit Deo and Santanu Kumar Dash and Guillermo Suarez-Tangil and Volodya Vovk and Lorenzo Cavallaro},<br/>
