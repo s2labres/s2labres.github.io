@@ -1,5 +1,3 @@
-Lorenzo Cavallaro, Johannes Kinder, Feargus Pendlebury, and Fabio Pierazzi , Are Machine Learning Models for Malware Detection Ready for Prime Time? , IEEE Security & Privacy Magazine, 2023
-
 - title: "Are Machine Learning Models for Malware Detection Ready for Prime Time?"
   authors: Lorenzo Cavallaro and Johannes Kinder and Feargus Pendlebury and Fabio Pierazzi
   description:
@@ -15,9 +13,8 @@ Lorenzo Cavallaro, Johannes Kinder, Feargus Pendlebury, and Fabio Pierazzi , Are
     - mlsec
     - malware
   bibtex: |
-  @article{CavKinPen+23,<br/>
-      author = {Cavallaro, Lorenzo and Kinder, Johannes and Pendlebury,
-      Feargus and Pierazzi, Fabio},<br/>
+   @article{CavKinPen23,<br/>
+      author = {Cavallaro, Lorenzo and Kinder, Johannes and Pendlebury, Feargus and Pierazzi, Fabio},<br/>
       journal = {IEEE Security \& Privacy Magazine},<br/>
       title = {Are Machine Learning Models for Malware Detection Ready for Prime Time?},<br/>
       year = {2023},<br/>
