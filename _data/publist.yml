@@ -5,7 +5,7 @@
     url: 
     download: SPMag23_MLmodelReady.pdf
   venue:
-    title: IEEE Security & Privacy Magazine
+    title: IEEE Security and Privacy Magazine
     acronym: IEEE S&P Magazine
   date: 2023-08-25
   tags:
@@ -14,14 +14,14 @@
     - malware
   bibtex: |
    @article{CavKinPen23,<br/>
-      author = {Cavallaro, Lorenzo and Kinder, Johannes and Pendlebury, Feargus and Pierazzi, Fabio},<br/>
-      journal = {IEEE Security \& Privacy Magazine},<br/>
-      title = {Are Machine Learning Models for Malware Detection Ready for Prime Time?},<br/>
-      year = {2023},<br/>
-      volume = {21},<br/>
-      number = {2},<br/>
-      pages = {53-56},<br/>
-      doi = {10.1109/MSEC.2023.3236543}<br/>
+      <span></span> author = {Cavallaro, Lorenzo and Kinder, Johannes and Pendlebury, Feargus and Pierazzi, Fabio},<br/>
+      <span></span> journal = {IEEE Security and Privacy Magazine},<br/>
+      <span></span> title = {Are Machine Learning Models for Malware Detection Ready for Prime Time?},<br/>
+      <span></span> year = {2023},<br/>
+      <span></span> volume = {21},<br/>
+      <span></span> number = {2},<br/>
+      <span></span> pages = {53-56},<br/>
+      <span></span> doi = {10.1109/MSEC.2023.3236543},<br/>
    }
 
 - title: "Drift Forensics of Malware Classifiers"
@@ -40,10 +40,10 @@
     - malware
   bibtex: |
     @inproceedings{chow2023driftforensics,<br/>
-      title = {Drift Forensics of Malware Classifiers},<br/>
-      author = {Chow, Theo and Kan, Zeliang and Linhardt, Lorenz and Cavallaro, Lorenzo and Arp, Daniel and Pierazzi, Fabio},<br/>
-      booktitle = {Prof. of the {ACM} Workshop on Artificial Intelligence and Security ({AISec})},<br/>
-      year = {2023},<br/>
+      <span></span> title = {Drift Forensics of Malware Classifiers},<br/>
+      <span></span> author = {Chow, Theo and Kan, Zeliang and Linhardt, Lorenz and Cavallaro, Lorenzo and Arp, Daniel and Pierazzi, Fabio},<br/>
+      <span></span> booktitle = {Prof. of the {ACM} Workshop on Artificial Intelligence and Security ({AISec})},<br/>
+      <span></span> year = {2023},<br/>
    }
 
 - title: "Jigsaw Puzzle: Selective Backdoor Attack to Subvert Malware Classifiers"
@@ -62,10 +62,9 @@
     - malware
   homepage: https://whyisyoung.github.io/JigsawPuzzle/
   bibtex: |
-    @article{yang2022jigsaw,<br/>
+    @inproceedings{yang2022jigsaw,<br/>
      <span></span> author    = {Limin Yang, Zhi Chen, Jacopo Cortellazzi, Feargus Pendlebury, Kevin Tu, Fabio Pierazzi, Lorenzo Cavallaro, Gang Wang},<br/>
-     <span></span> title     = {Jigsaw Puzzle: Selective Backdoor Attack
-     to Subvert Malware Classifiers},<br/>
+     <span></span> title     = {Jigsaw Puzzle: Selective Backdoor Attack to Subvert Malware Classifiers},<br/>
      <span></span> booktitle = {{IEEE} Symposium on Security and Privacy},</br>
      <span></span> volume    = {abs/2202.05470},</br>
      <span></span> year      = {2023},</br>
