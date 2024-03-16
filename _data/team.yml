@@ -154,6 +154,27 @@
   role: phd-student
   location: King's College London (Visiting UCL)
 
+- firstname: Xinran
+  lastname: Zheng
+  photo: 
+  email: xinran.zheng.23@ucl.ac.uk
+  role: phd-student
+  location: UCL
+  
+- firstname: Xingzhi
+  lastname: Qian
+  photo:
+  email: xingzhi.qian.23@ucl.ac.uk
+  role: phd-student
+  location: UCL
+
+-firstname: Alexander
+  lastname: Herzog
+  photo:
+  email: alexander.herzog.23@ucl.ac.uk
+  role: phd-student
+  location: UCL
+
 - firstname: James
   lastname: Patrick-Evans
   photo: images/teampic/unknown.jpg
