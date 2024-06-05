@@ -112,6 +112,10 @@ layout: base_lay
             <a href={{member.profile}}><i>Feargus Pendlebury</i></a>, Ph.D. Student, King's College London &amp; Royal
             Holloway, University of London & The Alan Turing Institute
         </li>
+        {% assign member = site.data.team | where: "lastname", "Kan" | first %}
+        <li>
+            <a href={{member.profile}}><i>Zeliang Kan</i></a>, Ph.D. Student, King's College London & University College London
+        </li>
         {% assign member = site.data.team | where: "lastname", "Pierazzi" | first %}
         <li>
             <a href={{member.profile}}><i>Fabio Pierazzi</i></a>, Lecturer (Assistant Professor), King's College London.
