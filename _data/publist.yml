@@ -6,7 +6,7 @@
     download: icml24-SymC.pdf
   venue:
     title: 41st International Conference on Machine Learning
-    acronym: ICML | Spotlight
+    acronym: ICML 2024 | Spotlight
   date: 2023-07-21
   tags:
     - selected
@@ -29,7 +29,7 @@
     download: usesec24-ChainReactor.pdf
   venue:
     title: 33rd USENIX Security Symposium
-    acronym: USENIX Sec 
+    acronym: USENIX Sec 2024
   date: 2024-08-14
   tags:
     - selected
@@ -52,7 +52,7 @@
     download: SPMag23_MLmodelReady.pdf
   venue:
     title: IEEE Security & Privacy Magazine
-    acronym: IEEE S&P Magazine
+    acronym: IEEE S&P Magazine 2023
   date: 2023-08-25
   tags:
     - drift
@@ -78,7 +78,7 @@
     download: AISEC23_drift_forensics.pdf
   venue:
     title: In Prof. of the ACM Workshop on Artificial Intelligence and Security
-    acronym: AISEC 
+    acronym: AISec 2023
   date: 2023-08-25
   tags:
     - drift
@@ -100,7 +100,7 @@
     download: jigsaw.pdf
   venue:
     title: 44th IEEE Symposium on Security and Privacy
-    acronym: IEEE S&P
+    acronym: IEEE S&P 2023
   date: 2023-05-22
   tags:
     - selected
@@ -127,7 +127,7 @@
     download: feature-drift.pdf
   venue:
     title: 6th IEEE Workshop on Deep Learning Security and Privacy
-    acronym: DLSP
+    acronym: DLSP 2023
   date: 2023-05-25
   tags:
     - drift
@@ -151,7 +151,7 @@
   homepage: /projects/ropfuscator
   venue:
     title: 17th IEEE Workshop on Offensive Technologies
-    acronym: WOOT
+    acronym: WOOT 2023
   date: 2023-05-25
   tags:
     - syssec
@@ -171,7 +171,7 @@
     download: dodo.pdf
   venue:
     title: 31st USENIX Security Symposium
-    acronym: USENIX Sec | Distinguished Paper Award
+    acronym: USENIX Sec 2022 | Distinguished Paper Award
   date: 2022-08-10
   tags:
     - selected
@@ -195,7 +195,7 @@
     poster: transcending-errata_corrige.pdf
   venue:
     title: 43rd IEEE Symposium on Security and Privacy
-    acronym: IEEE S&P
+    acronym: IEEE S&P 2022
   date: 2022-05-22
   tags:
     - transcend
@@ -219,7 +219,7 @@
     download: universal.pdf
   venue:
     title: arXiv CoRR
-    acronym: CoRR
+    acronym: CoRR 2022
   date: 2022-02-02
   tags:
     - syssec
@@ -244,7 +244,7 @@
     download: aisec47-kanA.pdf
   venue:
     title: 14th ACM Workshop on Artificial Intelligence and Security
-    acronym: AISec
+    acronym: AISec 2021
   date: 2021-11-15
   tags:
     - drift
@@ -288,7 +288,7 @@
     download: aptclass.pdf
   venue:
     title: arXiv CoRR
-    acronym: CoRR
+    acronym: CoRR 2021
   date: 2021-01-20
   tags:
     - syssec
@@ -314,7 +314,7 @@
     download: ropfuscator.pdf
   venue:
     title: arXiv CoRR
-    acronym: CoRR
+    acronym: CoRR 2020
   date: 2020-12-20
   tags:
     - syssec
@@ -339,7 +339,7 @@
     download: acsac20-punstrip.pdf
   venue:
     title: Annual Computer Security Applications Conference
-    acronym: ACSAC
+    acronym: ACSAC 2020
   date: 2020-12-07
   tags:
     - selected
@@ -362,7 +362,7 @@
     poster: intriguing-poster.pdf
   venue:
     title: 41st IEEE Symposium on Security and Privacy
-    acronym: IEEE S&P
+    acronym: IEEE S&P 2020
   date: 2020-03-01
   tags:
     - intriguing
@@ -392,7 +392,7 @@
     download: tifs20.pdf
   venue:
     title: IEEE Trans. Information Forensics and Security
-    acronym: IEEE T-IFS
+    acronym: IEEE TIFS 2020
   date: 2020-02-28
   tags:
     - malware
@@ -422,7 +422,7 @@
     poster: tesseract-poster-final.pdf
   venue:
     title: 28th USENIX Security Symposium
-    acronym: USENIX Sec
+    acronym: USENIX Sec 2019
   date: 2019-08-01
   tags:
     - tesseract
@@ -449,7 +449,7 @@
     download: raid18_babelview.pdf
   venue:
     title: 21st International Symposium on Research in Attacks, Intrusions and Defenses
-    acronym: RAID
+    acronym: RAID 2018
   date: 2018-09-01
   tags:
     - syssec
@@ -474,7 +474,7 @@
     download: woot17-paper-patrick-evans.pdf
   venue:
     title: 11th USENIX Workshop on Offensive Technologies
-    acronym: USENIX Sec-WOOT
+    acronym: USENIX Sec-WOOT 2017
   date: 2017-08-02
   tags:
     - syssec
@@ -497,7 +497,7 @@
     poster: transcend-poster.pdf
   venue:
     title: 26th USENIX Security Symposium
-    acronym: USENIX Sec
+    acronym: USENIX Sec 2017
   date: 2017-08-01
   tags:
     - transcend
@@ -525,7 +525,7 @@
     download: Understanding Android app piggybacking_ A systematic study of mal.pdf
   venue:
     title: IEEE Trans. Information Forensics and Security
-    acronym: IEEE T-IFS
+    acronym: IEEE TIFS 2017
   date: 2017-01-20
   tags:
     - malware
@@ -555,7 +555,7 @@
     download: plas2017.pdf
   venue:
     title: ACM SIGSAC Workshop on Programming Languages and Analysis for Security
-    acronym: ACM CCS-PLAS
+    acronym: ACM CCS-PLAS 2017
   date: 2017-10-20
   tags:
     - syssec
@@ -576,7 +576,7 @@
     download: ndss2017.pdf
   venue:
     title: 24th Annual Network and Distributed System Security Symposium
-    acronym: NDSS
+    acronym: NDSS 2017
   date: 2017-02-01
   tags:
     - syssec
@@ -598,7 +598,7 @@
     download: 83926508.pdf
   venue:
     title: 14th International Conference on Mining Software Repositories
-    acronym: MSR
+    acronym: MSR 2017
   date: 2017-05-01
   tags:
     - malware
@@ -624,7 +624,7 @@
     download: cybersafety2017.pdf
   venue:
     title: 26th International Conference on World Wide Web Companion
-    acronym: ACM WWW-CyberSafety
+    acronym: ACM WWW-CyberSafety 2017
   date: 2017-04-01
   tags:
   bibtex: |
@@ -650,7 +650,7 @@
     download: computingsurvey.pdf
   venue:
     title: ACM Computing Surveys
-    acronym: ACM CSUR
+    acronym: ACM CSUR 2017
   date: 2017-01-01
   tags:
     - syssec
@@ -686,7 +686,7 @@
     download: 2017codaspy-droidsieve.pdf
   venue:
     title: 7th ACM Conference on Data and Application Security and Privacy
-    acronym: ACM CODASPY
+    acronym: ACM CODASPY 2017
   date: 2017-03-01
   tags:
     - mlsec
@@ -711,7 +711,7 @@
     download: 46ca833a3f1250f9d9e7415cf8c71805c20e.pdf
   venue:
     title: Technical Report
-    acronym: TR@RHUL
+    acronym: TR@RHUL 2016
   date: 2016-01-01
   tags:
     - mlsec
@@ -734,7 +734,7 @@
     download: most2016.pdf
   venue:
     title: "IEEE Security and Privacy Workshops: Mobile Security Technologies"
-    acronym: IEEE S&P-MoST
+    acronym: IEEE S&P-MoST 2016
   date: 2016-05-01
   tags:
     - mlsec
@@ -757,7 +757,7 @@
     download: fgcs2016.pdf
   venue:
     title: "Future Generation Computer Systems"
-    acronym: FGCS
+    acronym: FGCS 2016
   date: 2016-12-01
   tags:
     - malware
@@ -781,7 +781,7 @@
     download: 2016aisec.pdf
   venue:
     title: 9th ACM CCS Workshop on Artificial Intelligence and Security
-    acronym: ACM CCS-AISec
+    acronym: ACM CCS-AISec 2016
   date: 2016-10-01
   tags:
     - mlsec
@@ -804,7 +804,7 @@
     download: slds2015.pdf
   venue:
     title: 3rd International Symposium of Statistical Learning and Data Science
-    acronym: SLDS
+    acronym: SLDS 2015
   date: 2015-04-01
   tags:
     - mlsec
@@ -826,7 +826,7 @@
     download: 164907eccd30241c179eb65d7cc0032d8d40.pdf
   venue:
     title: 22nd Annual Network and Distributed System Security Symposium
-    acronym: NDSS
+    acronym: NDSS 2015
   date: 2015-02-01
   tags:
     - selected
@@ -850,7 +850,7 @@
     download: arxiv2014.pdf
   venue:
     title: arXiv CoRR
-    acronym: CoRR
+    acronym: CoRR 2014
   date: 2014-09-10
   tags:
     - syssec
