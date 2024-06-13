@@ -1,3 +1,26 @@
+- title: "TESSERACT: Eliminating Experimental Bias in Malware Classification across Space and Time (Extended Version)"
+  description: We focus on deepening and expanding the most promising aspects observed in our initial study on a larger dataset. A key contribution is the exploration of the deep learning-based malware detection approach. Furthermore, we extend our exploration to additional security domains.
+  authors: Zeliang Kan, Shae McFadden, Daniel Arp, Feargus Pendlebury, Fabio Pierazzi, Roberto Jordaney, Johannes Kinder, and Lorenzo Cavallaro
+  link:
+    url: https://arxiv.org/abs/2402.01359
+    download: tesseract-extend.pdf
+  venue:
+    title: arXiv
+    acronym: arXiv
+  date: 2024-02-02
+  tags:
+    - tesseract
+    - selected
+    - mlsec
+    - malware
+  bibtex: |
+    @article{kan2024tesseract,<br/>
+     <span></span> title={TESSERACT: Eliminating Experimental Bias in Malware Classification across Space and Time (Extended Version)},<br/>
+     <span></span> author={Kan, Zeliang and McFadden, Shae and Arp, Daniel and Pendlebury, Feargus and Jordaney, Roberto and Kinder, Johannes and Pierazzi, Fabio and Cavallaro, Lorenzo},<br/>
+     <span></span> journal={arXiv preprint arXiv:2402.01359},<br/>
+     <span></span> year={2024}<br/>
+    }
+    
 - title: "INSOMNIA: Towards Concept-Drift Robustness in Network Intrusion Detection"
   authors: Giuseppina Andresini and Feargus Pendlebury and Fabio Pierazzi and Corrado Loglisci and Annalisa Appice and Lorenzo Cavallaro
   description:
