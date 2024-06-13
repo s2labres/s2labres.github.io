@@ -21,8 +21,8 @@
       <span></span> url={https://openreview.net/forum?id=OLvgrLtv6J}</br>
     }
 
-- title: "Dos and Don'ts of Machine Learning in Computer Security"
-  authors: Daniel Arp, Erwin Quiring, Feargus Pendlebury, Alexander Warnecke, Fabio Pierazzi, Christian Wressnegger, Lorenzo Cavallaro, Konrad Rieck
+- title: "ChainReactor: Automated Privilege Escalation Chain Discovery via AI Planning"
+  authors: Giulio De Pasquale, Ilya Grishchenko, Riccardo Iesari, Gabriel Pizarro, Lorenzo Cavallaro, Christopher Kruegel, and Giovanni Vigna
   description:
   link:
     url: 
