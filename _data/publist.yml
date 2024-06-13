@@ -222,7 +222,6 @@
     acronym: CoRR
   date: 2022-02-02
   tags:
-    - selected
     - syssec
     - malware
   bibtex: |
@@ -271,7 +270,6 @@
     acronym: AISec
   date: 2021-11-15
   tags:
-    - selected
     - mlsec
     - malware
   bibtex: |
@@ -560,7 +558,6 @@
     acronym: ACM CCS-PLAS
   date: 2017-10-20
   tags:
-    - selected
     - syssec
   bibtex: |
     @inproceedings{plas2017,<br/>
