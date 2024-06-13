@@ -1,3 +1,49 @@
+- title: "Exploiting Code Symmetries for Learning Program Semantics"
+  authors: Kexin Pei, Weichen Li, Qirui Jin, Shuyang Liu, Scott Geng, Lorenzo Cavallaro, Junfeng Yang, Suman Jana
+  description:
+  link:
+    url: 
+    download: icml24-SymC.pdf
+  venue:
+    title: 41st International Conference on Machine Learning
+    acronym: ICML | Spotlight
+  date: 2023-07-21
+  tags:
+    - selected
+    - mlsec
+  homepage: 
+  bibtex: |
+   @inproceedings{pei2024exploiting,<br/>
+      <span></span> title={Exploiting Code Symmetries for Learning Program Semantics},<br/>
+      <span>>/span> author={Kexin Pei and Weichen Li and Qirui Jin and Shuyang Liu and Scott Geng and Lorenzo Cavallaro and Junfeng Yang and Suman Jana},<br/>
+      <span></span> booktitle={Forty-first International Conference on Machine Learning},<br/>
+      <span></span> year={2024},<br/>
+      <span></span> url={https://openreview.net/forum?id=OLvgrLtv6J}</br>
+    }
+
+- title: "Dos and Don'ts of Machine Learning in Computer Security"
+  authors: Daniel Arp, Erwin Quiring, Feargus Pendlebury, Alexander Warnecke, Fabio Pierazzi, Christian Wressnegger, Lorenzo Cavallaro, Konrad Rieck
+  description:
+  link:
+    url: 
+    download: usesec24-ChainReactor.pdf
+  venue:
+    title: 33rd USENIX Security Symposium
+    acronym: USENIX Sec 
+  date: 2024-08-14
+  tags:
+    - selected
+    - mlsec
+    - syssec
+  homepage: 
+  bibtex: |
+    @inproceedings{depasquale24ChainReactor,<br/>
+      <span></span> author    = {Giulio De Pasquale, Ilya Grishchenko, Riccardo Iesari, Gabriel Pizarro, Lorenzo Cavallaro, Christopher Kruegel, and Giovanni Vigna},<br/>
+      <span></span> title     = {{ChainReactor}: Automated Privilege Escalation Chain Discovery via AI Planning},<br/>
+      <span></span> booktitle = {33rd USENIX Security Symposium},<br/>
+      <span></span> year      = {2024},<br/>
+    }
+
 - title: "Are Machine Learning Models for Malware Detection Ready for Prime Time?"
   authors: Lorenzo Cavallaro and Johannes Kinder and Feargus Pendlebury and Fabio Pierazzi
   description:
