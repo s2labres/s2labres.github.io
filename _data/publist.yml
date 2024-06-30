@@ -280,30 +280,36 @@
      <span></span> year      = {2021},</br>
     }
 
-- title: "Identifying Authorship Style in Malicious Binaries: Techniques, Challenges & Datasets"
-  authors: Jason Gray, Daniele Sgandurra, Lorenzo Cavallaro
+- title: "Identifying Authorship in Malicious Binaries: Features, Challenges & Datasets"
+  authors: Jason Gray, Daniele Sgandurra, Lorenzo Cavallaro, Jorge Blasco Alis
   description:
   link:
-    url: https://arxiv.org/abs/2101.06124
-    download: aptclass.pdf
+    url: https://dl.acm.org/doi/10.1145/3653973
   venue:
-    title: arXiv CoRR
-    acronym: CoRR 2021
-  date: 2021-01-20
+    title: ACM Computing Surveys
+    acronym: CSUR 2024
+  date: 2024-04-30
   tags:
     - syssec
     - malware
   homepage: /projects/authorship/
   bibtex: |
-    @article{gray2021aptclass,<br/>
-     <span></span> author    = {Jason Gray and Daniele Sgandurra and Lorenzo Cavallaro},<br/>
-     <span></span> title     = {Identifying Authorship Style in Malicious Binaries: Techniques, Challenges & Datasets},<br/>
-     <span></span> journal   = {CoRR},</br>
-     <span></span> volume    = {abs/2101.06124},</br>
-     <span></span> year      = {2021},</br>
-     <span></span> url       = {http://arxiv.org/abs/2101.06124},</br>
-     <span></span> eprint    = {2101.06124},</br>
-     <span></span> archivePrefix = {arXiv}</br>
+    @article{Grayetal2024,<br/>
+     <span></span> author    = {Gray, Jason and Sgandurra, Daniele and Cavallaro, Lorenzo and Blasco Alis, Jorge},<br/>
+     <span></span> title     =  {Identifying Authorship in Malicious Binaries: Features, Challenges \& Datasets},<br/>
+     <span></span> journal   = {ACM Comput. Surv.},</br>
+     <span></span> issue_date   = {August 2024},</br> 
+     <span></span> publisher   = {Association for Computing Machinery},</br>
+     <span></span> address   = {New York, NY, USA},</br>
+     <span></span> volume    = {56},</br>
+     <span></span> number    = {8},</br>
+     <span></span> month     = {apr},</br>
+     <span></span> year      = {2024},</br>
+     <span></span> articleno      = {212},</br>
+     <span></span> numpages       = {36},</br>
+     <span></span> url       = {https://doi.org/10.1145/3653973},</br>
+     <span></span> doi       = {10.1145/3653973},</br>
+     <span></span> issn = {0360-0300},</br>
     }
 
 - title: "Intertwining ROP Gadgets and Opaque Predicates for Robust Obfuscation"
