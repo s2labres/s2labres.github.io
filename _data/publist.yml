@@ -1,3 +1,24 @@
+- title: "LAMD: Context-driven Android Malware Detection and Classification with LLMs"
+  authors: Xingzhi Qian*, Xinran Zheng*, Yiling He, Shuo Yang, Lorenzo Cavallaro
+  description:
+  link:
+    url: 
+    download: DLSP2025_LLM_enhanced_malware_detection.pdf
+  venue:
+    title: 8th IEEE Workshop on Deep Learning Security and Privacy
+    acronym: DLSP 2025 | Best Paper Award
+  date: 2025-03-14
+  tags:
+    - mlsec
+    - malware
+  bibtex: |
+    @inproceedings{qian25dlsp,<br/>
+     <span></span> author    = {Xingzhi Qian and Xinran Zheng and Yiling He and Shuo Yang and Lorenzo Cavallaro},<br/>
+     <span></span> title     = {LAMD: Context-driven Android Malware Detection and Classification with LLMs},<br/>
+     <span></span> booktitle = {{IEEE} Workshop on Deep Learning Security and Privacy ({DLSP})},</br>
+     <span></span> year      = {2025},</br>
+    }
+
 - title: "Exploiting Code Symmetries for Learning Program Semantics"
   authors: Kexin Pei, Weichen Li, Qirui Jin, Shuyang Liu, Scott Geng, Lorenzo Cavallaro, Junfeng Yang, Suman Jana
   description:
