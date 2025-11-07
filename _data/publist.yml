@@ -1,3 +1,87 @@
+- title: "ML-Based Behavioral Malware Detection Is Far From a Solved Problem"
+  authors: Yigitcan Kaya, Yizheng Chen, Marcus Botacin, Shoumik Saha, Fabio Pierazzi, Lorenzo Cavallaro, David Wagner, Tudor Dumitraş
+  description:
+  link:
+    url: 
+    download: satml.pdf
+  venue:
+    title: IEEE Conference on Secure and Trustworthy Machine Learning (SaTML)
+    acronym: SaTML 2025
+  date: 2025-04-09
+  tags:
+    - mlsec
+  homepage: 
+  bibtex: |
+   @inproceedings{tsingenopoulos2024raid,<br/>
+      <span></span> title={Exploiting Code Symmetries for Learning Program Semantics},<br/>
+      <span></span> author={Ilias Tsingenopoulos and Jacopo Cortellazzi and Branislav Bošanský and Simone Aonzo and Davy Preuveneers and Wouter Joosen and Fabio Pierazzi and Lorenzo Cavallaro},<br/>
+      <span></span> booktitle={27th International Symposium on Research in Attacks, Intrusions and Defenses}<br/>
+      <span></span> year={2024},<br/>
+    }
+
+- title: "LAMD: Context-driven Android Malware Detection and Classification with LLMs"
+  authors: Xinran Zheng, Shuo Yang, Edith C.H. Ngai, Suman Jana, Lorenzo Cavallaro
+  description:
+  link:
+    url: 
+    download: lamd.pdf
+  venue:
+    title: 8th Deep Learning Security and Privacy Workshop
+    acronym: DLSP 2025
+  date: 2025-05-15
+  tags:
+    - mlsec
+  homepage: 
+  bibtex: |
+   @inproceedings{,<br/>
+      <span></span> title={{LAMD: Context-driven Android Malware Detection and Classification with LLMs}}<br/>
+      <span></span> author={Xingzhi Qian and Xinran Zheng and Yiling He and Shuo Yang and Lorenzo Cavallaro}<br/>
+      <span></span> booktitle={8th Deep Learning Security and Privacy Workshop}<br/>
+      <span></span> year={2025},<br/>
+    }
+
+- title: "How to Train your Antivirus: RL-based Hardening through the Problem Space"
+  authors: Ilias Tsingenopoulos, Jacopo Cortellazzi, Branislav Bošanský, Simone Aonzo, Davy Preuveneers, Wouter Joosen, Fabio Pierazzi, Lorenzo Cavallaro
+  description:
+  link:
+    url: 
+    download: raid24-1.pdf
+  venue:
+    title: 27th International Symposium on Research in Attacks, Intrusions and Defenses
+    acronym: RAID 2024
+  date: 2024-09-30
+  tags:
+    - mlsec
+  homepage: 
+  bibtex: |
+   @inproceedings{tsingenopoulos2024raid,<br/>
+      <span></span> title={Exploiting Code Symmetries for Learning Program Semantics},<br/>
+      <span></span> author={Ilias Tsingenopoulos and Jacopo Cortellazzi and Branislav Bošanský and Simone Aonzo and Davy Preuveneers and Wouter Joosen and Fabio Pierazzi and Lorenzo Cavallaro},<br/>
+      <span></span> booktitle={27th International Symposium on Research in Attacks, Intrusions and Defenses}<br/>
+      <span></span> year={2024},<br/>
+    }
+
+- title: "Adapt it! automating apt campaign and group attribution by leveraging and linking heterogeneous files"
+  authors: A Saha, J Blasco, L Cavallaro, M Lindorfer
+  description:
+  link:
+    url: 
+    download: raid24-2.pdf
+  venue:
+    title: 27th International Symposium on Research in Attacks, Intrusions and Defenses
+    acronym: RAID 2024
+  date: 2024-09-30
+  tags:
+    - mlsec
+  homepage: 
+  bibtex: |
+   @inproceedings{saha2024raid,<br/>
+      <span></span> title={Exploiting Code Symmetries for Learning Program Semantics},<br/>
+      <span></span> author={A Saha and J Blasco and L Cavallaro and M Lindorfer}<br/>
+      <span></span> booktitle={27th International Symposium on Research in Attacks and Intrusions and Defenses}<br/>
+      <span></span> year={2024},<br/>
+    }
+
 - title: "Exploiting Code Symmetries for Learning Program Semantics"
   authors: Kexin Pei, Weichen Li, Qirui Jin, Shuyang Liu, Scott Geng, Lorenzo Cavallaro, Junfeng Yang, Suman Jana
   description:
@@ -15,7 +99,7 @@
   bibtex: |
    @inproceedings{pei2024exploiting,<br/>
       <span></span> title={Exploiting Code Symmetries for Learning Program Semantics},<br/>
-      <span>>/span> author={Kexin Pei and Weichen Li and Qirui Jin and Shuyang Liu and Scott Geng and Lorenzo Cavallaro and Junfeng Yang and Suman Jana},<br/>
+      <span></span> author={Kexin Pei and Weichen Li and Qirui Jin and Shuyang Liu and Scott Geng and Lorenzo Cavallaro and Junfeng Yang and Suman Jana},<br/>
       <span></span> booktitle={Forty-first International Conference on Machine Learning},<br/>
       <span></span> year={2024},<br/>
       <span></span> url={https://openreview.net/forum?id=OLvgrLtv6J}</br>
